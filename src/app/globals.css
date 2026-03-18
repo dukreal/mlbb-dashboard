@@ -127,3 +127,31 @@
     @apply font-sans;
   }
 }
+
+@layer utilities {
+  /* Custom Scrollbar Logic */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 5px; /* Thin scrollbar */
+    height: 5px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent; /* Makes track invisible or matches bg */
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: #3f3f46; /* zinc-700 */
+    border-radius: 10px;
+    transition: background 0.2s ease;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: #3b82f6; /* blue-500 (MLBB Blue) */
+  }
+
+  /* Support for Firefox */
+  .custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #3f3f46 transparent;
+  }
+}
