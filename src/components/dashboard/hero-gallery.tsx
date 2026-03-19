@@ -9,6 +9,8 @@ import { EtherealShadow } from "@/components/ui/etheral-shadow";
 
 // MATERIAL UI ICONS
 import SearchIcon from '@mui/icons-material/Search';
+import FilterListIcon from '@mui/icons-material/FilterList';
+import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 interface HeroGalleryProps {
   heroes: MLBBHero[];
@@ -20,6 +22,9 @@ export function HeroGallery({ heroes }: HeroGalleryProps) {
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedRole, setSelectedRole] = useState("All");
   const [selectedHero, setSelectedHero] = useState<MLBBHero | null>(null);
+  
+  // State for mobile dropdown
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
   const filteredHeroes = useMemo(() => {
     return heroes.filter((hero) => {
@@ -30,7 +35,7 @@ export function HeroGallery({ heroes }: HeroGalleryProps) {
   }, [searchQuery, selectedRole, heroes]);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden bg-black font-sans antialiased">
+    <div className="relative h-full w-full overflow-hidden bg-black font-sans antialiased">
       
       {/* 1. BACKGROUND LAYER */}
       <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
@@ -40,14 +45,16 @@ export function HeroGallery({ heroes }: HeroGalleryProps) {
           noise={{ opacity: 0.1, scale: 0.5 }}
           className="h-full w-full"
         />
+        {/* Subtle overlay to keep text readable */}
+        <div className="absolute inset-0 bg-linear-to-b from-black via-transparent to-black opacity-60" />
       </div>
 
-      {/* 2. UI LAYER - ADDED pb-6, md:pb-12, lg:pb-16 to lift the scrollbar bottom */}
-      <div className="relative z-10 flex h-full flex-col bg-transparent px-8 pt-6 pb-6 md:px-12 md:pt-12 md:pb-12 lg:px-16 lg:pt-16 lg:pb-16">
+      {/* 2. UI LAYER - Symmetrical padding to ensure scrollbar visibility */}
+      <div className="relative z-10 flex h-full flex-col bg-transparent px-8 pt-6 pb-6 md:px-12 md:pt-10 md:pb-10 lg:px-16 lg:pt-12 lg:pb-12">
         
-        {/* COMPACT HEADER */}
+        {/* HEADER AREA */}
         <header className="mb-8 shrink-0 space-y-5">
-          <div className="flex items-end justify-between border-b border-zinc-900 pb-5">
+          <div className="flex flex-col md:flex-row md:items-end justify-between border-b border-zinc-900 pb-5 gap-4">
             <div className="space-y-1">
               <h1 className="text-3xl font-black tracking-tighter text-white uppercase italic leading-none">
                 Hero Roster
@@ -57,8 +64,54 @@ export function HeroGallery({ heroes }: HeroGalleryProps) {
               </p>
             </div>
 
-            {/* UPSIZED FILTERS */}
-            <div className="flex flex-wrap gap-2">
+            {/* --- RESPONSIVE FILTERS --- */}
+            
+            {/* MOBILE DROPDOWN (Visible only on small screens) */}
+            <div className="relative md:hidden w-full">
+              <button
+                onClick={() => setIsDropdownOpen(!isDropdownOpen)}
+                className="w-full flex items-center justify-between px-5 py-3 bg-zinc-900/60 border-2 border-zinc-800 rounded-xl text-white text-sm font-bold uppercase tracking-widest shadow-xl"
+              >
+                <div className="flex items-center gap-2">
+                  <FilterListIcon sx={{ fontSize: 18 }} />
+                  <span>Role: {selectedRole}</span>
+                </div>
+                <KeyboardArrowDownIcon 
+                  className={`transition-transform duration-300 ${isDropdownOpen ? 'rotate-180' : ''}`} 
+                />
+              </button>
+
+              <AnimatePresence>
+                {isDropdownOpen && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    className="absolute top-full left-0 right-0 mt-2 z-100 bg-zinc-900 border-2 border-zinc-800 rounded-xl overflow-hidden shadow-2xl"
+                  >
+                    {ROLES.map((role) => (
+                      <button
+                        key={role}
+                        onClick={() => {
+                          setSelectedRole(role);
+                          setIsDropdownOpen(false);
+                        }}
+                        className={`w-full text-left px-5 py-4 text-sm font-bold uppercase tracking-widest transition-colors ${
+                          selectedRole === role 
+                            ? "bg-white text-black" 
+                            : "text-zinc-400 hover:bg-zinc-800 hover:text-white"
+                        }`}
+                      >
+                        {role}
+                      </button>
+                    ))}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+            </div>
+
+            {/* DESKTOP BUTTONS (Hidden on mobile) */}
+            <div className="hidden md:flex flex-wrap gap-2">
               {ROLES.map((role) => (
                 <button
                   key={role}
@@ -75,6 +128,7 @@ export function HeroGallery({ heroes }: HeroGalleryProps) {
             </div>
           </div>
 
+          {/* SEARCH BAR */}
           <div className="relative w-full max-w-[320px]">
             <SearchIcon className="absolute left-3 top-1/2 -translate-y-1/2 text-zinc-500" sx={{ fontSize: 20 }} />
             <Input
@@ -104,6 +158,7 @@ export function HeroGallery({ heroes }: HeroGalleryProps) {
                     onClick={() => setSelectedHero(hero)}
                     className="group cursor-pointer flex flex-col items-center"
                   >
+                    {/* ICON: Large w-24 size */}
                     <div className="relative w-24 h-24 mb-4 rounded-2xl border-2 border-zinc-900 bg-zinc-900/60 transition-all duration-300 group-hover:border-white group-hover:shadow-[0_0_20px_rgba(255,255,255,0.15)] overflow-hidden shrink-0">
                       <img
                         src={hero.iconUrl}
@@ -112,6 +167,7 @@ export function HeroGallery({ heroes }: HeroGalleryProps) {
                       />
                     </div>
                     
+                    {/* TEXT: Name (text-base) and Role (text-[11px]) */}
                     <div className="text-center w-full space-y-1">
                       <h2 className="text-base font-bold text-white leading-tight truncate px-1 uppercase tracking-tight group-hover:text-blue-400 transition-colors">
                         {hero.hero_name}
@@ -125,12 +181,13 @@ export function HeroGallery({ heroes }: HeroGalleryProps) {
               </AnimatePresence>
             </motion.div>
 
-            {/* Spacer ensures the last row content is fully visible */}
-            <div className="h-12 w-full shrink-0 bg-transparent" />
+            {/* SPACER: Enough height for text to clear edge without excessive gap */}
+            <div className="h-16 w-full shrink-0 bg-transparent" />
           </div>
         </div>
       </div>
 
+      {/* 4. DETAIL VIEW OVERLAY */}
       <HeroDetails
         hero={selectedHero}
         isOpen={!!selectedHero}
