@@ -25,7 +25,6 @@ export interface HeroSkill {
   max_levels: number;
 }
 
-// MAKE SURE THIS HAS "export" BEFORE IT
 export interface HeroData {
   id: string;
   key: number;
