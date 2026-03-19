@@ -46,7 +46,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
           {/* 1. BACKGROUND LAYER: Ethereal Shadow */}
           <div className="pointer-events-none absolute inset-0 z-0">
             <EtherealShadow
-              color="rgba(59, 130, 246, 0.15)" // Subtle blue aura
+              color="rgba(59, 130, 246, 0.15)"
               animation={{ scale: 80, speed: 80 }}
               noise={{ opacity: 0.08, scale: 0.5 }}
               className="h-full w-full"
@@ -54,14 +54,14 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
           </div>
 
           {/* 2. STICKY TOP NAV */}
-          <nav className="relative z-220 shrink-0 flex items-center px-8 py-6 bg-black/60 backdrop-blur-md border-b border-zinc-900/50">
+          <nav className="relative z-220 shrink-0 flex items-center px-8 py-6 bg-transparent border-b border-zinc-900/30 backdrop-blur-sm">
             <Button
               variant="ghost"
               onClick={onClose}
-              className="text-zinc-400 hover:text-white transition-colors p-0"
+              className="text-zinc-500 hover:text-white hover:bg-transparent transition-all p-0 group"
             >
-              <ArrowBackIcon className="mr-2 h-5 w-5" />
-              <span className="text-xs font-black tracking-widest uppercase italic">
+              <ArrowBackIcon className="mr-2 h-5 w-5 transition-transform group-hover:-translate-x-1" />
+              <span className="text-[10px] font-black tracking-widest uppercase italic">
                 Close File
               </span>
             </Button>
