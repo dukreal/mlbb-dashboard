@@ -42,7 +42,6 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           exit={{ opacity: 0 }}
-          // FIX: Changed bg-black to bg-black/60 + blur to see through to the master background
           className="fixed inset-0 z-150 bg-black/60 backdrop-blur-xl h-screen w-screen overflow-hidden flex flex-col antialiased font-sans"
         >
           {/* NAVIGATION */}
@@ -157,12 +156,11 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                 </div>
               </div>
 
-              {/* ABILITIES */}
               {/* ABILITIES SECTION */}
               <section className="mt-40 space-y-16 bg-transparent">
                 {/* Section Header */}
                 <div className="flex items-center gap-6">
-                  <h2 className="text-5xl font-black text-white tracking-tighter uppercase italic">
+                  <h2 className="text-4xl font-bold text-white tracking-tight">
                     Abilities
                   </h2>
                   <div className="h-px flex-1 bg-zinc-800/50" />
@@ -172,11 +170,13 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                   {hero.skills.map((skill, index) => (
                     <div
                       key={index}
-                      className="flex flex-col md:flex-row gap-10 p-10 rounded-[3rem] bg-zinc-900/10 border border-zinc-800/50 backdrop-blur-md group hover:border-zinc-500/50 transition-all"
+                      className="flex flex-col md:flex-row gap-8 lg:gap-12 p-8 lg:p-10 rounded-[2.5rem] bg-zinc-900/10 border border-zinc-800/40 backdrop-blur-md group hover:border-zinc-500/30 transition-all"
                     >
-                      {/* LEFT SIDE: CIRCULAR SKILL ICON */}
-                      <div className="flex flex-col items-center gap-4 shrink-0 w-28 md:w-32">
-                        <div className="relative w-28 h-28 rounded-full overflow-hidden border-2 border-zinc-800 group-hover:border-white transition-all bg-zinc-900 shadow-2xl">
+                      {/* LEFT COLUMN: Icon and Centered Badge */}
+                      {/* Fixed width w-28 ensures the column stays consistent */}
+                      <div className="flex flex-col items-center gap-5 shrink-0 w-28 lg:w-32">
+                        {/* ICON: Reduced to a balanced w-28 (112px) */}
+                        <div className="relative w-24 h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden border-2 border-zinc-800 group-hover:border-white transition-all bg-zinc-900 shadow-xl">
                           <img
                             src={skill.icon}
                             alt={skill.name}
@@ -185,64 +185,69 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                           />
                         </div>
 
-                        {/* 2. UPDATED BADGE: Added h-auto, whitespace-normal, and leading-tight */}
+                        {/* BADGE: Perfectly Centered text with better padding */}
                         <Badge
                           variant="outline"
-                          className="text-[9px] border-zinc-800 text-zinc-500 uppercase tracking-widest px-3 py-1.5 text-center h-auto whitespace-normal leading-tight flex justify-center"
+                          className="text-[11px] lg:text-xs font-bold border-zinc-700 text-zinc-400 px-3 py-2 rounded-xl w-full flex items-center justify-center text-center h-auto min-h-9 whitespace-normal leading-tight bg-zinc-900/30"
                         >
-                          {skill.type}
+                          {/* Logic to convert type to Sentence Case (e.g., "Skill 1") */}
+                          {skill.type
+                            .toLowerCase()
+                            .split(" ")
+                            .map(
+                              (word) =>
+                                word.charAt(0).toUpperCase() + word.slice(1),
+                            )
+                            .join(" ")}
                         </Badge>
                       </div>
 
-                      {/* RIGHT SIDE: SKILL CONTENT */}
+                      {/* RIGHT COLUMN: Skill Content */}
                       <div className="flex-1 space-y-6">
-                        {/* Header: Name + Cooldown/Mana */}
-                        <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-zinc-900 pb-5 gap-4">
-                          <h3 className="text-3xl font-black text-white uppercase italic tracking-tighter">
+                        {/* Title and Metadata */}
+                        <div className="flex flex-col gap-3 border-b border-zinc-800/50 pb-5">
+                          <h3 className="text-2xl lg:text-3xl font-bold text-white tracking-tight">
                             {skill.name}
                           </h3>
 
-                          <div className="flex gap-4">
-                            {/* Cooldown Display (Skips if "null") */}
+                          <div className="flex flex-wrap gap-5">
                             {skill.cooldown && skill.cooldown !== "null" && (
-                              <div className="flex items-center gap-1.5 text-zinc-400">
-                                <AccessTimeIcon sx={{ fontSize: 14 }} />
-                                <span className="text-[10px] font-bold uppercase tracking-widest">
-                                  {skill.cooldown}s
+                              <div className="flex items-center gap-1.5 text-zinc-500">
+                                <AccessTimeIcon sx={{ fontSize: 16 }} />
+                                <span className="text-xs font-semibold uppercase tracking-wider">
+                                  Cooldown: {skill.cooldown}s
                                 </span>
                               </div>
                             )}
-
-                            {/* Mana Cost Display (Skips if "null") */}
                             {skill.manacost && skill.manacost !== "null" && (
-                              <div className="flex items-center gap-1.5 text-zinc-400">
-                                <LocalActivityIcon sx={{ fontSize: 14 }} />
-                                <span className="text-[10px] font-bold uppercase tracking-widest">
-                                  {skill.manacost}
+                              <div className="flex items-center gap-1.5 text-zinc-500">
+                                <LocalActivityIcon sx={{ fontSize: 16 }} />
+                                <span className="text-xs font-semibold uppercase tracking-wider">
+                                  Cost: {skill.manacost}
                                 </span>
                               </div>
                             )}
                           </div>
                         </div>
 
-                        {/* Description Text */}
-                        <p className="text-base leading-relaxed text-zinc-300 max-w-4xl font-medium">
+                        {/* Description: 1.6x line height for maximum readability */}
+                        <p className="text-base lg:text-lg leading-[1.65] text-zinc-300 max-w-4xl font-normal">
                           {skill.description}
                         </p>
 
-                        {/* Dynamic Attributes Grid (Damage, Scaling, etc.) */}
+                        {/* Attributes Grid */}
                         {Object.keys(skill.attributes).length > 0 && (
-                          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-6 pt-4">
+                          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-6 pt-4">
                             {Object.entries(skill.attributes).map(
                               ([key, values]) => (
                                 <div
                                   key={key}
                                   className="space-y-1.5 border-l-2 border-zinc-800 pl-4"
                                 >
-                                  <p className="text-[10px] font-black uppercase text-zinc-500 tracking-wider">
+                                  <p className="text-[10px] font-black uppercase text-zinc-500 tracking-widest">
                                     {key.replace(/_/g, " ")}
                                   </p>
-                                  <p className="text-sm font-bold text-white tracking-tight leading-none">
+                                  <p className="text-sm lg:text-base font-bold text-white tracking-tight">
                                     {values.join(" / ")}
                                   </p>
                                 </div>
