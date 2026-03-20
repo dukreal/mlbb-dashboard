@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google"; // These were imported by default
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import StyledJsxRegistry from "@/lib/registry"; // Use this one!
 
-// 1. These define the fonts
 const geistSans = Geist({
   variable: "--font-sans",
   subsets: ["latin"],
@@ -20,11 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      {/* 2. Here is where we apply the font and the scroll-lock classes */}
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black h-screen overflow-hidden`}
-      >
-        {children}
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-black h-screen overflow-hidden`}>
+        <StyledJsxRegistry>
+          {children}
+        </StyledJsxRegistry>
       </body>
     </html>
   );

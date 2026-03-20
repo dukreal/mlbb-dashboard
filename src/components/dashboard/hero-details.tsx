@@ -62,7 +62,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
             <div className="max-w-325 mx-auto px-8 pt-10 pb-32">
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
                 {/* LEFT: PORTRAIT - Fixed the double-motion.div error here */}
-                <div className="lg:col-span-5 relative aspect-3/4 rounded-2xl overflow-hidden bg-zinc-900/20 shadow-2xl">
+                <div className="lg:col-span-5 relative aspect-3/4 rounded-2xl overflow-hidden">
                   <img
                     src={hero.portraitUrl}
                     alt={hero.hero_name}
@@ -120,36 +120,75 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                     <h2 className="text-base font-black text-white mb-10 tracking-widest uppercase border-l-4 border-white pl-5 leading-none">
                       Base Statistics
                     </h2>
+
                     <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-10 gap-y-10 pl-6">
+                      {/* Row 1 */}
                       <StatBox
-                        label="Health"
+                        label="Health Points"
                         value={hero.base_stats.hp}
                         icon={<FavoriteIcon />}
                       />
                       <StatBox
-                        label="Mana"
+                        label="HP Regeneration"
+                        value={hero.base_stats.hp_regen}
+                        icon={<ReplayIcon />}
+                      />
+                      <StatBox
+                        label="Mana Capacity"
                         value={hero.base_stats.mana}
                         icon={<BoltIcon />}
                       />
+
+                      {/* Row 2 */}
                       <StatBox
-                        label="Phys Atk"
+                        label="Mana Regeneration"
+                        value={hero.base_stats.mana_regen}
+                        icon={<ReplayIcon />}
+                      />
+                      <StatBox
+                        label="Physical Attack"
                         value={hero.base_stats.physical_attack}
                         icon={<FlashOnIcon />}
                       />
                       <StatBox
-                        label="Phys Def"
+                        label="Physical Defense"
                         value={hero.base_stats.physical_defense}
                         icon={<SecurityIcon />}
                       />
+
+                      {/* Row 3 */}
                       <StatBox
-                        label="Magic Def"
+                        label="Magic Power"
+                        value={hero.base_stats.magic_power}
+                        icon={<AutoFixHighIcon />}
+                      />
+                      <StatBox
+                        label="Magic Defense"
                         value={hero.base_stats.magic_defense}
                         icon={<SecurityIcon />}
                       />
                       <StatBox
-                        label="Move Speed"
+                        label="Movement Speed"
                         value={hero.base_stats.movement_speed}
                         icon={<SpeedIcon />}
+                      />
+
+                      {/* Row 4 */}
+                      <StatBox
+                        label="Attack Speed"
+                        value={hero.base_stats.attack_speed}
+                        icon={<FlashOnIcon />}
+                      />
+                      <StatBox
+                        label="Atk Speed Ratio"
+                        value={hero.base_stats.attack_speed_ratio}
+                        icon={<WorkspacePremiumIcon />}
+                      />
+
+                      {/* 12th Slot Placeholder (keeps the grid balanced) */}
+                      <div
+                        className="hidden sm:block opacity-0"
+                        aria-hidden="true"
                       />
                     </div>
                   </section>
@@ -272,20 +311,35 @@ function RatingRow({ label, value }: { label: string; value: string }) {
   const score = parseInt(value);
   return (
     <div className="space-y-3.5">
-      <div className="flex justify-between items-center px-0.5">
-        <span className="text-[11px] font-black uppercase text-zinc-500 tracking-widest">
+      <div className="flex justify-between items-end px-0.5">
+        {/* Label: Slightly brighter for scanability */}
+        <span className="text-[11px] font-black uppercase text-zinc-400 tracking-widest">
           {label}
         </span>
-        <span className="text-base font-black text-white">
-          {score}
-          <span className="text-zinc-800 font-normal text-xs ml-1">/ 10</span>
-        </span>
+
+        {/* Score Display */}
+        <div className="flex items-baseline">
+          {/* Main Score: High Contrast White */}
+          <span className="text-xl font-black text-white leading-none">
+            {score}
+          </span>
+          {/* Denominator: Improved from zinc-700 to zinc-500 + font-medium */}
+          <span className="text-sm font-medium text-zinc-500 ml-1.5 tracking-tighter">
+            / 10
+          </span>
+        </div>
       </div>
+
+      {/* Progress Segments */}
       <div className="flex gap-2">
         {[...Array(10)].map((_, i) => (
           <div
             key={i}
-            className={`h-1.5 flex-1 rounded-sm transition-all duration-700 ${i < score ? "bg-white shadow-[0_0_12px_rgba(255,255,255,0.2)]" : "bg-zinc-900"}`}
+            className={`h-1.5 flex-1 rounded-sm transition-all duration-700 ${
+              i < score
+                ? "bg-white shadow-[0_0_12px_rgba(255,255,255,0.2)]"
+                : "bg-zinc-800/50"
+            }`}
           />
         ))}
       </div>
