@@ -18,8 +18,8 @@ import BoltIcon from "@mui/icons-material/Bolt";
 import ReplayIcon from "@mui/icons-material/Replay";
 import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
 import MapIcon from "@mui/icons-material/Map";
-import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import LocalActivityIcon from '@mui/icons-material/LocalActivity';
+import AccessTimeIcon from "@mui/icons-material/AccessTime";
+import LocalActivityIcon from "@mui/icons-material/LocalActivity";
 
 interface HeroDetailsProps {
   hero: MLBBHero | null;
@@ -175,8 +175,8 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                       className="flex flex-col md:flex-row gap-10 p-10 rounded-[3rem] bg-zinc-900/10 border border-zinc-800/50 backdrop-blur-md group hover:border-zinc-500/50 transition-all"
                     >
                       {/* LEFT SIDE: CIRCULAR SKILL ICON */}
-                      <div className="flex flex-col items-center gap-4 shrink-0">
-                        <div className="relative w-28 h-28 rounded-full overflow-hidden border-2 border-zinc-800 group-hover:border-white transition-all shadow-2xl bg-zinc-900">
+                      <div className="flex flex-col items-center gap-4 shrink-0 w-28 md:w-32">
+                        <div className="relative w-28 h-28 rounded-full overflow-hidden border-2 border-zinc-800 group-hover:border-white transition-all bg-zinc-900 shadow-2xl">
                           <img
                             src={skill.icon}
                             alt={skill.name}
@@ -184,10 +184,11 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                             referrerPolicy="no-referrer"
                           />
                         </div>
-                        {/* Skill Type Badge (e.g., Passive, Skill 1) */}
+
+                        {/* 2. UPDATED BADGE: Added h-auto, whitespace-normal, and leading-tight */}
                         <Badge
                           variant="outline"
-                          className="text-[10px] border-zinc-800 text-zinc-500 uppercase tracking-widest px-4 py-1"
+                          className="text-[9px] border-zinc-800 text-zinc-500 uppercase tracking-widest px-3 py-1.5 text-center h-auto whitespace-normal leading-tight flex justify-center"
                         >
                           {skill.type}
                         </Badge>
