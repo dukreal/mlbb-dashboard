@@ -30,8 +30,9 @@ const HeroItem = memo(({ hero, onClick }: { hero: MLBBHero; onClick: (hero: MLBB
         <img
           src={hero.iconUrl || "/placeholder-hero.png"}
           alt={hero.hero_name}
+          referrerPolicy="no-referrer" 
           className="h-full w-full object-cover grayscale-[0.2] group-hover:grayscale-0 group-hover:scale-110 transition-all duration-500"
-          loading="lazy" // Performance: Only load images when they enter the viewport
+          loading="lazy"
           {...(hero.iconUrl ? {} : { "aria-hidden": true })}
         />
       </div>
