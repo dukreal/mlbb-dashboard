@@ -13,21 +13,28 @@ export interface BaseStats {
   magic_defense: string;
   magic_power: string;
   mana: string;
-  mana_regen: string; // Added
+  mana_regen: string;
   attack_speed: string;
   attack_speed_ratio: string;
   movement_speed: string;
+}
+
+// NEW: Interface for the skill mechanics (BUFF, CC, AoE, etc.)
+export interface HeroSkillTag {
+  name: string;
+  color: string;
 }
 
 export interface HeroSkill {
   type: string;
   attributes: Record<string, string[]>;
   max_levels: number;
-  name: string;        // Added
-  description: string; // Added
-  cooldown: string;    // Added
-  manacost: string;    // Added
-  icon: string;        // Added
+  name: string;
+  description: string;
+  cooldown: string;
+  manacost: string;
+  icon: string;
+  tags?: HeroSkillTag[]; // ADDED: Matches your new JSON data
 }
 
 export interface HeroData {
