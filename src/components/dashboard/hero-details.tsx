@@ -331,7 +331,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
               </section>
 
               {/* FOOTER: Improved Readability & Compliance */}
-              <footer className="mt-20 pb-16 text-center border-t border-zinc-900/50 pt-10">
+              <footer className="mt-10 pb-16 text-center border-t border-zinc-900/50 pt-10">
                 <div className="max-w-2xl mx-auto space-y-3">
                   <p className="text-sm font-medium text-zinc-400 tracking-wide">
                     Hero data and skill assets provided by{" "}
