@@ -86,10 +86,10 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
              FIX 1: Darkened background by changing bg-black/40 to bg-black/75 
              and increased backdrop-blur to xl for a more focused feel.
           */
-          className="fixed inset-0 z-[150] bg-black/75 backdrop-blur-xl h-screen w-screen overflow-hidden flex flex-col antialiased font-sans"
+          className="fixed inset-0 z-150 bg-black/75 backdrop-blur-xl h-screen w-screen overflow-hidden flex flex-col antialiased font-sans"
         >
           {/* NAVIGATION */}
-          <nav className="relative z-[170] shrink-0 px-8 py-6 bg-transparent">
+          <nav className="relative z-170 shrink-0 px-8 py-6 bg-transparent">
             <Button
               variant="ghost"
               onClick={onClose}
@@ -102,14 +102,14 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
             </Button>
           </nav>
 
-          <div className="relative z-[160] flex-1 overflow-y-auto overflow-x-hidden custom-scrollbar bg-transparent">
-            <div className="max-w-[1300px] mx-auto px-8 pt-10 pb-1">
+          <div className="relative z-160 flex-1 overflow-y-auto overflow-x-hidden custom-scrollbar bg-transparent">
+            <div className="max-w-325 mx-auto px-8 pt-10 pb-1">
               <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start mb-20">
                 {/* LEFT: PORTRAIT */}
                 <motion.div
                   initial={{ opacity: 0, x: -20 }}
                   animate={{ opacity: 1, x: 0 }}
-                  className="lg:col-span-5 relative aspect-[3/4] rounded-2xl overflow-hidden border border-transparent bg-zinc-900/10 shadow-2xl"
+                  className="lg:col-span-5 relative aspect-3/4 rounded-2xl overflow-hidden border border-transparent bg-zinc-900/10 shadow-2xl"
                 >
                   <img
                     src={hero.portraitUrl}
