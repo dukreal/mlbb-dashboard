@@ -102,7 +102,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                   animate={{ opacity: 1, x: 0 }}
                   className="lg:col-span-5 relative aspect-3/4 rounded-2xl overflow-hidden border border-transparent bg-zinc-900/10 shadow-2xl"
                 >
-                  <img src={hero.portraitUrl} alt={hero.hero_name} className="w-full h-full object-contain" />
+                  <img src={hero.portraitUrl} alt={hero.hero_name} className="w-full h-full object-contain select-none" draggable={false} />
                 </motion.div>
 
                 {/* RIGHT: DATA COLUMN */}
@@ -121,7 +121,8 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                               <img 
                                 src={ROLE_ICONS[role.toLowerCase()]} 
                                 alt={role}
-                                className="w-6 h-6 object-contain brightness-125"
+                                className="w-6 h-6 object-contain brightness-125 select-none"
+                                draggable={false}
                               />
                             )}
                             <span className={`text-[13px] font-black uppercase tracking-[0.15em] ${idx === 0 ? "text-blue-400" : "text-zinc-300"}`}>
@@ -185,7 +186,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                     >
                       <div className="flex flex-col items-center gap-5 shrink-0 w-28 lg:w-32">
                         <div className="relative w-24 h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden border-2 border-zinc-800 bg-zinc-900 shadow-xl">
-                          <img src={skill.icon} alt={skill.name} className="w-full h-full object-cover" referrerPolicy="no-referrer" />
+                          <img src={skill.icon} alt={skill.name} className="w-full h-full object-cover select-none" referrerPolicy="no-referrer" draggable={false}/>
                         </div>
                         <Badge variant="outline" className="text-[11px] lg:text-xs font-bold border-zinc-700 text-zinc-400 px-3 py-2 rounded-xl w-full flex items-center justify-center text-center h-auto min-h-9 bg-zinc-900/30">
                           {skill.type.toLowerCase().split(" ").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}
@@ -256,7 +257,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
               </section>
 
               {/* FOOTER */}
-              <footer className="mt-20 pb-16 text-center border-t border-zinc-900/50 pt-10">
+              <footer className="mt-10 pb-5 text-center pt-10">
                 <div className="max-w-2xl mx-auto space-y-3">
                   <p className="text-sm font-medium text-zinc-400 tracking-wide">
                     Hero data and skill assets provided by{" "}
