@@ -14097,7 +14097,7 @@
         ]
       },
       {
-        "type": "Ultimate",
+        "type": "Skill 3",
         "skillname": "Thunderclap",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a7bd1cc6fe451768339602321771094a.png",
         "attributes": {
@@ -14135,7 +14135,7 @@
         ]
       },
       {
-        "type": "Extra Skill",
+        "type": "Ultimate",
         "skillname": "Life Recovery",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_13f8eb8f71c22d308124486b630def4c.png",
         "attributes": {},
@@ -20336,7 +20336,7 @@
         ]
       },
       {
-        "type": "Skill 3",
+        "type": "Ultimate",
         "skillname": "Shortcut",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9ac68239747eb8bf2f056394e35d8712.png",
         "attributes": {
@@ -20363,7 +20363,7 @@
         ]
       },
       {
-        "type": "Ultimate",
+        "type": "Special Skill",
         "skillname": "Why Walk?",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_33723975930c8cfa06f2dcdab4964fb7.png",
         "attributes": {},
@@ -20826,7 +20826,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Sacret Beast Form",
+        "type": "Skill 2 - Human Form",
         "skillname": "Flash Step",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_42/100_4c18e5cd1756493f078cbc1ccceefe99.png",
         "attributes": {
@@ -20863,36 +20863,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Human Form",
-        "skillname": "Unleash the Beast",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_42/100_0ee62afc61544c6664234deab5577fc7.png",
-        "attributes": {
-          "Cooldown": [
-            "12.0",
-            "11.2",
-            "10.4",
-            "9.6",
-            "8.8",
-            "8.0"
-          ],
-          "Base Damage": [
-            "60",
-            "72",
-            "84",
-            "96",
-            "108",
-            "120"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "Lukas transforms into his <font color=\"a6aafb\">Sacred Beast</font> form (briefly gains Control Immunity). His base Movement Speed is increased by 30, all attributes are increased by 15%, and his skills gain new effects.\n<font color=\"a6aafb\">Use Again</font>: Fires a Shockwave Blast in the target direction that will explode upon hitting an enemy hero or reaching its maximum range, dealing 450<font color=\"fba51f\"> (+155% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font>.\n<font color=\"A4AAC7\">All attributes: HP, Physical Attack, Attack Speed, Physical & Magic Defense, and Attack Range.</font>",
-        "skilltag": [
-          "Morph",
-          "Buff"
-        ]
-      },
-      {
-        "type": "Skill 2 - Sacret Beast Form",
+        "type": "Skill 1 - Sacred Beast Form",
         "skillname": "Flash Combo",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_42/100_31b3aadc6fbf508e4782bc8c36df3008.png",
         "attributes": {
@@ -20921,7 +20892,7 @@
         ]
       },
       {
-        "type": "Ultimate - Human Form",
+        "type": "Skill 2 - Sacred Beast Form",
         "skillname": "Flash Step",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_42/100_c9cc9b1c2e6b95fcef9a4fb7e0c0523a.png",
         "attributes": {
@@ -20953,8 +20924,37 @@
           "Buff"
         ]
       },
+           {
+        "type": "Ultimate - Human Form",
+        "skillname": "Unleash the Beast",
+        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_42/100_0ee62afc61544c6664234deab5577fc7.png",
+        "attributes": {
+          "Cooldown": [
+            "12.0",
+            "11.2",
+            "10.4",
+            "9.6",
+            "8.8",
+            "8.0"
+          ],
+          "Base Damage": [
+            "60",
+            "72",
+            "84",
+            "96",
+            "108",
+            "120"
+          ]
+        },
+        "max_levels": 6,
+        "skilldesc": "Lukas transforms into his <font color=\"a6aafb\">Sacred Beast</font> form (briefly gains Control Immunity). His base Movement Speed is increased by 30, all attributes are increased by 15%, and his skills gain new effects.\n<font color=\"a6aafb\">Use Again</font>: Fires a Shockwave Blast in the target direction that will explode upon hitting an enemy hero or reaching its maximum range, dealing 450<font color=\"fba51f\"> (+155% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font>.\n<font color=\"A4AAC7\">All attributes: HP, Physical Attack, Attack Speed, Physical & Magic Defense, and Attack Range.</font>",
+        "skilltag": [
+          "Morph",
+          "Buff"
+        ]
+      },
       {
-        "type": "Ultimate - Sacret Beast Form",
+        "type": "Ultimate - Sacred Beast Form",
         "skillname": "Shockwave Blast",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_42/100_c751fb684db1294450cb37cb333ca558.png",
         "attributes": {
@@ -21526,7 +21526,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Thunder",
+        "type": "Skill 2 - Normal",
         "skillname": "Windstride",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_14dbfe16a6a19c482ecc88eb0d9307a7.png",
         "attributes": {
@@ -21555,36 +21555,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Torrent",
-        "skillname": "Shifting Skies",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_cea96e22851430931feb523f9bfac657.png",
-        "attributes": {
-          "Strike Damage": [
-            "140",
-            "156",
-            "172",
-            "188",
-            "204",
-            "220"
-          ],
-          "Lunge Damage": [
-            "240",
-            "280",
-            "320",
-            "360",
-            "400",
-            "440"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "Swipe left to ascend into <font color=\"a6aafb\">Thunder</font> for 10s. Sora gains a brief bonus Movement Speed and becomes untargetable. He then summons lightning to strike nearby enemies 3 time(s), each dealing 140<font color=\"fba51f\"> (+50% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font>.\n\nSwipe right to ascend into <font color=\"a6aafb\">Torrent</font> for 10s. Sora gains Control Immunity. After a short delay, he pulls nearby enemies in and deals 250<font color=\"26e407\"> (+8% Total HP)</font> <font color=\"fb1f1f\">Physical Damage</font>.",
-        "skilltag": [
-          "Damage",
-          "Buff"
-        ]
-      },
-      {
-        "type": "Skill 2 - Default",
+        "type": "Skill 1 - Thunder",
         "skillname": "Sundering Strike - Thunderflash",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_e7981942a32da2499ed7ee5d955274bf.png",
         "attributes": {
@@ -21641,35 +21612,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Torrent",
-        "skillname": "Heaven's Wrath",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_7dd6e441e24c876f2a908d7bb23f91bb.png",
-        "attributes": {
-          "Base Damage": [
-            "140",
-            "152",
-            "164",
-            "176",
-            "188",
-            "200"
-          ],
-          "Extra Damage": [
-            "140",
-            "152",
-            "164",
-            "176",
-            "188",
-            "200"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "Sora leaps into the air and strikes a target area 16 time(s), dealing 60<font color=\"fba51f\"> (+40% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> with each hit. Sora can move freely and ignore terrain during this skill.",
-        "skilltag": [
-          "Damage"
-        ]
-      },
-      {
-        "type": "Ultimate - Default",
+        "type": "Skill 1 - Torrent",
         "skillname": "Sundering Strike - Overwhelm",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_6d3d6f49e87e9b470decddd96ceeb8f7.png",
         "attributes": {
@@ -21702,7 +21645,7 @@
         ]
       },
       {
-        "type": "Ultimate - Thunder",
+        "type": "Skill 2 - Torrent",
         "skillname": "Windstride - Skyfall",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_6238f98e4a8ecc15e9ab7787882edce9.png",
         "attributes": {
@@ -21717,6 +21660,63 @@
         "skilltag": [
           "Mobility",
           "CC"
+        ]
+      },
+            {
+        "type": "Ultimate - Normal",
+        "skillname": "Shifting Skies",
+        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_cea96e22851430931feb523f9bfac657.png",
+        "attributes": {
+          "Strike Damage": [
+            "140",
+            "156",
+            "172",
+            "188",
+            "204",
+            "220"
+          ],
+          "Lunge Damage": [
+            "240",
+            "280",
+            "320",
+            "360",
+            "400",
+            "440"
+          ]
+        },
+        "max_levels": 6,
+        "skilldesc": "Swipe left to ascend into <font color=\"a6aafb\">Thunder</font> for 10s. Sora gains a brief bonus Movement Speed and becomes untargetable. He then summons lightning to strike nearby enemies 3 time(s), each dealing 140<font color=\"fba51f\"> (+50% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font>.\n\nSwipe right to ascend into <font color=\"a6aafb\">Torrent</font> for 10s. Sora gains Control Immunity. After a short delay, he pulls nearby enemies in and deals 250<font color=\"26e407\"> (+8% Total HP)</font> <font color=\"fb1f1f\">Physical Damage</font>.",
+        "skilltag": [
+          "Damage",
+          "Buff"
+        ]
+      },
+      {
+        "type": "Ultimate - Thunder",
+        "skillname": "Heaven's Wrath",
+        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_7dd6e441e24c876f2a908d7bb23f91bb.png",
+        "attributes": {
+          "Base Damage": [
+            "140",
+            "152",
+            "164",
+            "176",
+            "188",
+            "200"
+          ],
+          "Extra Damage": [
+            "140",
+            "152",
+            "164",
+            "176",
+            "188",
+            "200"
+          ]
+        },
+        "max_levels": 6,
+        "skilldesc": "Sora leaps into the air and strikes a target area 16 time(s), dealing 60<font color=\"fba51f\"> (+40% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> with each hit. Sora can move freely and ignore terrain during this skill.",
+        "skilltag": [
+          "Damage"
         ]
       },
       {

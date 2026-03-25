@@ -444,19 +444,30 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                 </Tabs>
               </section>
 
-              <footer className="mt-20 pb-16 text-center border-t border-zinc-900/50 pt-10">
+              <footer className="mt-1 pb-16 text-center border-t border-zinc-900/50 pt-10">
                 <div className="max-w-2xl mx-auto space-y-3">
-                  <p className="text-sm font-medium text-zinc-400 tracking-wide">
-                    Hero data and skill assets provided by{" "}
+                  <p className="text-sm font-medium text-zinc-400 tracking-wide leading-relaxed">
+                    Hero data and skill assets provided by
+                    <br /> {/* Forces the links to the next line */}
                     <a
-                      href="https://liquipedia.net/mobilelegends/"
+                      href="https://www.mobilelegends.com/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-blue-500 hover:text-blue-400 underline underline-offset-4 transition-colors font-bold"
                     >
-                      Liquipedia
+                      Mobile Legend: BangBang
+                    </a>{" "}
+                    &{" "}
+                    <a
+                      href="https://www.mobilelegends.com/academy/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-500 hover:text-blue-400 underline underline-offset-4 transition-colors font-bold"
+                    >
+                      Mobile Legend: BangBang - Academy
                     </a>
                   </p>
+
                   <p className="text-[11px] text-zinc-600 leading-relaxed max-w-lg mx-auto uppercase tracking-widest">
                     Mobile Legends: Bang Bang is a trademark of Moonton Games.
                     <br />
