@@ -6170,7 +6170,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Wolf",
+        "type": "Skill 2 - Human",
         "skillname": "Hunter's Steps",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_42cfcbb066e1aef866c0cc1b9221811a.png",
         "attributes": {
@@ -6206,7 +6206,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Human",
+        "type": "Ultimate - Human",
         "skillname": "Wolf Transformation",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d414e77c739a173de440616d47260dd8.png",
         "attributes": {
@@ -6235,7 +6235,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Wolf",
+        "type": "Skill 1 - Wolf",
         "skillname": "Lycan Pounce",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3c6152c1e1bb2ceae95818e06bcfed86.png",
         "attributes": {
@@ -6272,7 +6272,7 @@
         ]
       },
       {
-        "type": "Ultimate - Human",
+        "type": "Skill 2 - Wolf",
         "skillname": "Bloodthirsty Howl",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c593ba4f2bebc21c6e099256e94ef2ec.png",
         "attributes": {
@@ -8275,7 +8275,7 @@
         ]
       },
       {
-        "type": "Skill 3",
+        "type": "Ultimate",
         "skillname": "Feathered Air Strike",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f0d9ce0152491c148821703d1e31d802.png",
         "attributes": {
@@ -8302,7 +8302,7 @@
         ]
       },
       {
-        "type": "Ultimate",
+        "type": "Extra Skill",
         "skillname": "Wings by Wings",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_566a1f86bd9177eb7b75f0fb0a0c762c.png",
         "attributes": {},
