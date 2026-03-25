@@ -4638,32 +4638,7 @@
         "type": "Passive",
         "skillname": "Heavenly Vow",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_708b471cf829d9ffb5d892a79b17d710.png",
-        "attributes": {
-          "Cooldown": [
-            "12.0",
-            "11.0",
-            "10.0",
-            "9.0",
-            "8.0",
-            "7.0"
-          ],
-          "Skill Cost": [
-            "50",
-            "55",
-            "60",
-            "65",
-            "70",
-            "75"
-          ],
-          "Base Damage": [
-            "150",
-            "180",
-            "210",
-            "240",
-            "270",
-            "300"
-          ]
-        },
+        "attributes": {},
         "max_levels": 6,
         "skilldesc": "Yi Sun-shin attacks with his <font color=\"a6aafb\">longbow</font> or <font color=\"a6aafb\">glaive</font> according to his distance from the target.\n<font color=\"a6aafb\">Weapon Mastery</font>: After each weapon switch, the next two Basic Attacks will gain extra Attack Speed, dealing 70% and 55% Crit Damage respectively, and gain 15% Movement Speed for 1s.",
         "skilltag": [
@@ -4671,7 +4646,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Without Turtle Ship",
+        "type": "Skill 1",
         "skillname": "Traceless",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_abd7c311019ffb1e4210092e448a445e.png",
         "attributes": {
@@ -4708,53 +4683,17 @@
         ]
       },
       {
-        "type": "Skill 1 - With Turtle Ship",
+        "type": "Skill 2",
         "skillname": "Blood Floods",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_cbefbe66ac78ac29ec20d14a057c30a5.png",
         "attributes": {
-          "Cooldown": [
-            "12.0",
-            "11.0",
-            "10.0",
-            "9.0",
-            "8.0",
-            "7.0"
-          ],
           "Skill Cost": [
-            "50",
-            "55",
             "60",
             "65",
             "70",
-            "75"
-          ],
-          "Base Damage": [
-            "200",
-            "240",
-            "280",
-            "320",
-            "360",
-            "400"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "<font color=\"a6aafb\">Tap</font>: Yi Sun-shin slashes swiftly with his glaive, dealing 240<font color=\"fba51f\"> (+80% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font>.\n<font color=\"a6aafb\">Hold</font>: Yi Sun-shin shoots a powerful arrow, dealing 240<font color=\"fba51f\"> (+80% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> to the target. The arrow's damage scales with the hold time, up to 200%.\nYi Sun-shin gains <font color=\"a6aafb\">Weapon Mastery</font> immediately when this skill is used.",
-        "skilltag": [
-          "AOE"
-        ]
-      },
-      {
-        "type": "Skill 2",
-        "skillname": "Mountain Shocker",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fa5511e292c6b516b1b258b13ab0f883.png",
-        "attributes": {
-          "Skill Cost": [
-            "85",
-            "90",
-            "95",
-            "100",
-            "105",
-            "110"
+            "75",
+            "80",
+            "85"
           ],
           "Slash Damage": [
             "240",
@@ -4774,41 +4713,38 @@
           ]
         },
         "max_levels": 6,
-        "skilldesc": "Yi Sun-shin summons a turtle ship and gains sight of the whole map for 2s. The turtle ship lasts for up to 15s, during which Yi Sun-shin gains 70% burst Movement Speed (decays to 20% over 2s).\nWhen cast again, Yi Sun-shin commands the turtle ship to ram toward the target area, dealing 160<font color=\"fba51f\"> (+50% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> and stunning enemy units in the central area for 0.8s. Then Yi Sun-shin commands the naval fleet to launch 3 waves of cannon shots on a larger area, each dealing 160<font color=\"fba51f\"> (+50% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> and slowing the enemies by 30%.\nYi Sun-shin gains <font color=\"a6aafb\">Weapon Mastery</font> effect immediately when this skill is used.",
+        "skilldesc": "<font color=\"a6aafb\">Tap</font>: Yi Sun-shin slashes swiftly with his glaive, dealing 240<font color=\"fba51f\"> (+80% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font>.\n<font color=\"a6aafb\">Hold</font>: Yi Sun-shin shoots a powerful arrow, dealing 240<font color=\"fba51f\"> (+80% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> to the target. The arrow's damage scales with the hold time, up to 200%.\nYi Sun-shin gains <font color=\"a6aafb\">Weapon Mastery</font> immediately when this skill is used.",
         "skilltag": [
-          "Burst",
-          "CC"
+          "AOE"
         ]
       },
       {
         "type": "Ultimate",
-        "skillname": "",
-        "skillicon": "",
+        "skillname": "Mountain Shocker",
+        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fa5511e292c6b516b1b258b13ab0f883.png",
         "attributes": {
-          "Cooldown": [
-            "72.0",
-            "66.0",
-            "60.0"
-          ],
           "Skill Cost": [
             "150",
             "180",
             "210"
           ],
-          "Passive Damage Increase": [
-            "13/5%",
-            "27/10%",
-            "40/15%"
-          ],
           "Base Damage": [
-            "150",
-            "180",
-            "210"
+            "160",
+            "200",
+            "240"
+          ],
+          "Cannon Damage": [
+            "160",
+            "200",
+            "240"
           ]
         },
-        "max_levels": 3,
-        "skilldesc": "",
-        "skilltag": []
+        "max_levels": 6,
+        "skilldesc": "Yi Sun-shin summons a turtle ship and gains sight of the whole map for 2s. The turtle ship lasts for up to 15s, during which Yi Sun-shin gains 70% burst Movement Speed (decays to 20% over 2s).\nWhen cast again, Yi Sun-shin commands the turtle ship to ram toward the target area, dealing 160<font color=\"fba51f\"> (+50% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> and stunning enemy units in the central area for 0.8s. Then Yi Sun-shin commands the naval fleet to launch 3 waves of cannon shots on a larger area, each dealing 160<font color=\"fba51f\"> (+50% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> and slowing the enemies by 30%.\nYi Sun-shin gains <font color=\"a6aafb\">Weapon Mastery</font> effect immediately when this skill is used.",
+        "skilltag": [
+          "Burst",
+          "CC"
+        ]
       }
     ]
   },
@@ -5826,7 +5762,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Heavy Sword Stance",
+        "type": "Skill 2 - Normal",
         "skillname": "Jungle Warrior",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_24322baddfd959a497671ec25ebe91a7.png",
         "attributes": {
@@ -5847,7 +5783,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Normal",
+        "type": "Ultimate - Normal",
         "skillname": "Bravest Fighter",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a7b0ba6060cb97e213bbb75c24404a2f.png",
         "attributes": {
@@ -5876,7 +5812,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Heavy Sword Stance",
+        "type": "Skill 1 - Great Sword",
         "skillname": "Land Shaker",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_314a8fc8ae1bed40e359345d5f4d31a0.png",
         "attributes": {
@@ -5897,7 +5833,7 @@
         ]
       },
       {
-        "type": "Ultimate - Normal",
+        "type": "Skill 2 - Great Sword",
         "skillname": "Storm Sword",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d09db3b0fb47d66e6ce2c80371141c68.png",
         "attributes": {
@@ -5925,7 +5861,7 @@
         ]
       },
       {
-        "type": "Ultimate - Heavy Sword Stance",
+        "type": "Ultimate - Great Sword",
         "skillname": "Raging Slash",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_77042b1a4020eef7c59fc51ac080a91c.png",
         "attributes": {
@@ -11296,7 +11232,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Sealed",
+        "type": "Skill 1 - Normal",
         "skillname": "Ninjutsu: Demon Feast",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_816e14aed8c099fb8cfa6053ca0666e5.png",
         "attributes": {
@@ -11324,7 +11260,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Demon Pneuma",
+        "type": "Skill 1 - Normal",
         "skillname": "Ninjutsu: Dark Mist",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_83f7dbd47c58fba79f634a31f88e0ffe.png",
         "attributes": {
@@ -11353,7 +11289,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Sealed",
+        "type": "Ultimate - Normal",
         "skillname": "Kinjutsu: Pinnacle Ninja",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_12b3b6f378728e25a1ccf0952c9f84bf.png",
         "attributes": {
@@ -11382,7 +11318,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Demon Pneuma",
+        "type": "Skill 1 - Hanekage",
         "skillname": "Forbidden Ninjutsu: Soul Snatch",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_74eb2011217392bd06c2dc2cf9434731.png",
         "attributes": {
@@ -11402,7 +11338,7 @@
         ]
       },
       {
-        "type": "Ultimate",
+        "type": "Skill 2 - Hanekage",
         "skillname": "Forbidden Ninjutsu: Black Mist",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_2e6bdaf0784cffb7c0a636b77dce95e7.png",
         "attributes": {
@@ -11435,7 +11371,7 @@
         ]
       },
       {
-        "type": "Unknown",
+        "type": "Ultimate - Hanekage",
         "skillname": "Ninjutsu Flee: Return",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_d84a015788767e56209e80d5ee64ca8a.png",
         "attributes": {},
@@ -18298,7 +18234,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Edith",
+        "type": "Skill 1 - Phylax",
         "skillname": "Onward",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3f3bd7205e18b8af21c1e04ba5d8aafe.png",
         "attributes": {
@@ -18335,28 +18271,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Phylax",
-        "skillname": "Primal Wrath",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ef6910865a6be662572e4f8b43dc7a5a.png",
-        "attributes": {
-          "Base Damage": [
-            "90",
-            "100",
-            "110",
-            "120",
-            "130",
-            "140"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "<font color=\"a6aafb\">Passive:</font> When inside Phylax, Edith can accumulate Wrath according to the damage she receives (calculated before damage reduction).\n\n<font color=\"a6aafb\">Active:</font> Edith ejects herself forward from Phylax, knocking back nearby enemies. After that, she takes flight and can perform ranged Basic Attacks, each dealing 35<font color=\"fba51f\"> (+75% Total Physical Attack)</font> <font color=\"62f8fe\">(+25% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font>. Edith also gains new skills in this state. When in flight, Edith gains 350<font color=\"26e407\"> (+5% Total HP)</font>-350<font color=\"26e407\"> (+20% Total HP)</font> extra Shield, 50%-150% extra Attack Speed and 5%-20% Hybrid Lifesteal based on the Wrath she accumulated, and converts each point of <font color=\"26e407\">Extra Physical Defense</font> and <font color=\"26e407\">Extra Magic Defense</font> into 3.5 <font color=\"62f8fe\">Magic Power</font>. The flight state lasts up to 8s.",
-        "skilltag": [
-          "Morph",
-          "Buff"
-        ]
-      },
-      {
-        "type": "Skill 2 - Edith",
+        "type": "Skill 1 - Edith",
         "skillname": "Divine Retribution",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0afd44b80c98596aaf29cafb3b3a8a1f.png",
         "attributes": {
@@ -18377,7 +18292,7 @@
         ]
       },
       {
-        "type": "Ultimate",
+        "type": "Skill 2 - Edith",
         "skillname": "Lightning Bolt",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_bc15a9e8821ea55e507269a984459154.png",
         "attributes": {
@@ -18406,6 +18321,27 @@
         "skilldesc": "Edith fires a Lightning Bolt in a designated direction, dealing 150<font color=\"62f8fe\"> (+50% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font> to the first enemy hero hit and immobilizing them for 0.8s.",
         "skilltag": [
           "CC"
+        ]
+      },
+      {
+        "type": "Ultimate",
+        "skillname": "Primal Wrath",
+        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ef6910865a6be662572e4f8b43dc7a5a.png",
+        "attributes": {
+          "Base Damage": [
+            "90",
+            "100",
+            "110",
+            "120",
+            "130",
+            "140"
+          ]
+        },
+        "max_levels": 6,
+        "skilldesc": "<font color=\"a6aafb\">Passive:</font> When inside Phylax, Edith can accumulate Wrath according to the damage she receives (calculated before damage reduction).\n\n<font color=\"a6aafb\">Active:</font> Edith ejects herself forward from Phylax, knocking back nearby enemies. After that, she takes flight and can perform ranged Basic Attacks, each dealing 35<font color=\"fba51f\"> (+75% Total Physical Attack)</font> <font color=\"62f8fe\">(+25% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font>. Edith also gains new skills in this state. When in flight, Edith gains 350<font color=\"26e407\"> (+5% Total HP)</font>-350<font color=\"26e407\"> (+20% Total HP)</font> extra Shield, 50%-150% extra Attack Speed and 5%-20% Hybrid Lifesteal based on the Wrath she accumulated, and converts each point of <font color=\"26e407\">Extra Physical Defense</font> and <font color=\"26e407\">Extra Magic Defense</font> into 3.5 <font color=\"62f8fe\">Magic Power</font>. The flight state lasts up to 8s.",
+        "skilltag": [
+          "Morph",
+          "Buff"
         ]
       }
     ]
