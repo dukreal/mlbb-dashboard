@@ -47,6 +47,7 @@ export interface MatchupEntry {
   hero_win_rate: number | null;
   increase_win_rate: number | null;
   rank: number;
+  iconUrl?: string;
 }
 
 export interface HeroMatchups {
