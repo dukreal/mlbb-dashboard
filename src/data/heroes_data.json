@@ -5783,35 +5783,6 @@
         ]
       },
       {
-        "type": "Ultimate - Normal",
-        "skillname": "Bravest Fighter",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a7b0ba6060cb97e213bbb75c24404a2f.png",
-        "attributes": {
-          "Cooldown": [
-            "10.0",
-            "9.7",
-            "9.4",
-            "9.1",
-            "8.8",
-            "8.5"
-          ],
-          "Base Damage": [
-            "100",
-            "120",
-            "140",
-            "160",
-            "180",
-            "200"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "Lapu-Lapu leaps to the target location while combining his twin blades into one, dealing 300<font color=\"fba51f\"> (+80% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> to nearby enemies upon landing and slowing them by 60% for 1s. (This skill cannot be interrupted.)\nLapu-Lapu gains 3 times the <font color=\"a6aafb\">Bravery Blessing</font> from this skill and skills in transformed state.\nFor the next 10s, Lapu-Lapu enters <font color=\"a6aafb\">Great Sword</font> stance and gains enhanced skills, 30 extra Physical & Magic Defense, and his Basic Attack damage is increased to 120%.",
-        "skilltag": [
-          "Morph",
-          "Mobility"
-        ]
-      },
-      {
         "type": "Skill 1 - Great Sword",
         "skillname": "Land Shaker",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_314a8fc8ae1bed40e359345d5f4d31a0.png",
@@ -5858,6 +5829,35 @@
         "skilltag": [
           "Reduce DMG",
           "AOE"
+        ]
+      },
+            {
+        "type": "Ultimate - Normal",
+        "skillname": "Bravest Fighter",
+        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a7b0ba6060cb97e213bbb75c24404a2f.png",
+        "attributes": {
+          "Cooldown": [
+            "10.0",
+            "9.7",
+            "9.4",
+            "9.1",
+            "8.8",
+            "8.5"
+          ],
+          "Base Damage": [
+            "100",
+            "120",
+            "140",
+            "160",
+            "180",
+            "200"
+          ]
+        },
+        "max_levels": 6,
+        "skilldesc": "Lapu-Lapu leaps to the target location while combining his twin blades into one, dealing 300<font color=\"fba51f\"> (+80% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> to nearby enemies upon landing and slowing them by 60% for 1s. (This skill cannot be interrupted.)\nLapu-Lapu gains 3 times the <font color=\"a6aafb\">Bravery Blessing</font> from this skill and skills in transformed state.\nFor the next 10s, Lapu-Lapu enters <font color=\"a6aafb\">Great Sword</font> stance and gains enhanced skills, 30 extra Physical & Magic Defense, and his Basic Attack damage is increased to 120%.",
+        "skilltag": [
+          "Morph",
+          "Mobility"
         ]
       },
       {
@@ -9976,51 +9976,6 @@
         ]
       },
       {
-        "type": "Ultimate - Elven Form",
-        "skillname": "Primal Darkness",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_abd29236983e4d3d1bfd361b2e242111.png",
-        "attributes": {
-          "Cooldown": [
-            "12.0",
-            "12.0",
-            "12.0",
-            "12.0",
-            "12.0",
-            "12.0"
-          ],
-          "Skill Cost": [
-            "70",
-            "80",
-            "90",
-            "100",
-            "110",
-            "120"
-          ],
-          "Base Damage": [
-            "250",
-            "280",
-            "310",
-            "340",
-            "370",
-            "400"
-          ],
-          "Max Damage": [
-            "500",
-            "560",
-            "620",
-            "680",
-            "740",
-            "800"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "<font color=\"a6aafb\">Passive</font>: Selena gains 5 Magic Power.\n\n<font color=\"a6aafb\">Active</font>: Selena enters Abyssal Form and gains 20% Movement Speed for 0.8s. This also immediately resets the cooldown of <font color=\"a6aafb\">Soul Eater</font> and <font color=\"a6aafb\">Garotte</font>.",
-        "skilltag": [
-          "Morph",
-          "Speed Up"
-        ]
-      },
-      {
         "type": "Skill 1 - Abyssal Form",
         "skillname": "Soul Eater",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_beba48ddc774a4267f72ba8a93666998.png",
@@ -10080,6 +10035,51 @@
         "skilltag": [
           "Mobility",
           "Buff"
+        ]
+      },
+      {
+        "type": "Ultimate - Elven Form",
+        "skillname": "Primal Darkness",
+        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_abd29236983e4d3d1bfd361b2e242111.png",
+        "attributes": {
+          "Cooldown": [
+            "12.0",
+            "12.0",
+            "12.0",
+            "12.0",
+            "12.0",
+            "12.0"
+          ],
+          "Skill Cost": [
+            "70",
+            "80",
+            "90",
+            "100",
+            "110",
+            "120"
+          ],
+          "Base Damage": [
+            "250",
+            "280",
+            "310",
+            "340",
+            "370",
+            "400"
+          ],
+          "Max Damage": [
+            "500",
+            "560",
+            "620",
+            "680",
+            "740",
+            "800"
+          ]
+        },
+        "max_levels": 6,
+        "skilldesc": "<font color=\"a6aafb\">Passive</font>: Selena gains 5 Magic Power.\n\n<font color=\"a6aafb\">Active</font>: Selena enters Abyssal Form and gains 20% Movement Speed for 0.8s. This also immediately resets the cooldown of <font color=\"a6aafb\">Soul Eater</font> and <font color=\"a6aafb\">Garotte</font>.",
+        "skilltag": [
+          "Morph",
+          "Speed Up"
         ]
       },
       {
@@ -11128,35 +11128,6 @@
         ]
       },
       {
-        "type": "Ultimate - Normal",
-        "skillname": "Kinjutsu: Pinnacle Ninja",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_12b3b6f378728e25a1ccf0952c9f84bf.png",
-        "attributes": {
-          "Base Damage": [
-            "160",
-            "200",
-            "240",
-            "280",
-            "320",
-            "360"
-          ],
-          "Damage per Hit": [
-            "40",
-            "50",
-            "60",
-            "70",
-            "80",
-            "90"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "Hanzo charges into battle as <font color=\"a6aafb\">Hanekage</font>, consuming 170 Energy per second. He gains 20 Energy when a nearby non-hero unit dies and 200 Energy if it's a hero. He gains 15 Energy when attacking a hero, and 45 Energy when attacking the Turtle or the Lord. When Energy runs out, Hanzo's body will be slowly drawn to <font color=\"a6aafb\">Hanekage</font>'s position.\n\nWhile in <font color=\"a6aafb\">Hanekage</font> form, Hanzo's body is invincible, while <font color=\"a6aafb\">Hanekage</font> ignores obstacles and gains 50% Movement Speed and 30% Attack Speed.\n\n<font color=\"a6aafb\">Use Again or Upon Death</font>: <font color=\"a6aafb\">Hanekage</font> returns to Hanzo's body, recovering 16% HP and becoming untargetable during the return. If <font color=\"a6aafb\">Hanekage</font> is killed, Hanzo will be slowed by 50% and revealed for 6s.",
-        "skilltag": [
-          "Morph",
-          "Mobility"
-        ]
-      },
-      {
         "type": "Skill 1 - Hanekage",
         "skillname": "Forbidden Ninjutsu: Soul Snatch",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_74eb2011217392bd06c2dc2cf9434731.png",
@@ -11207,6 +11178,35 @@
         "skilltag": [
           "AOE",
           "CC"
+        ]
+      },
+      {
+        "type": "Ultimate - Normal",
+        "skillname": "Kinjutsu: Pinnacle Ninja",
+        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_12b3b6f378728e25a1ccf0952c9f84bf.png",
+        "attributes": {
+          "Base Damage": [
+            "160",
+            "200",
+            "240",
+            "280",
+            "320",
+            "360"
+          ],
+          "Damage per Hit": [
+            "40",
+            "50",
+            "60",
+            "70",
+            "80",
+            "90"
+          ]
+        },
+        "max_levels": 6,
+        "skilldesc": "Hanzo charges into battle as <font color=\"a6aafb\">Hanekage</font>, consuming 170 Energy per second. He gains 20 Energy when a nearby non-hero unit dies and 200 Energy if it's a hero. He gains 15 Energy when attacking a hero, and 45 Energy when attacking the Turtle or the Lord. When Energy runs out, Hanzo's body will be slowly drawn to <font color=\"a6aafb\">Hanekage</font>'s position.\n\nWhile in <font color=\"a6aafb\">Hanekage</font> form, Hanzo's body is invincible, while <font color=\"a6aafb\">Hanekage</font> ignores obstacles and gains 50% Movement Speed and 30% Attack Speed.\n\n<font color=\"a6aafb\">Use Again or Upon Death</font>: <font color=\"a6aafb\">Hanekage</font> returns to Hanzo's body, recovering 16% HP and becoming untargetable during the return. If <font color=\"a6aafb\">Hanekage</font> is killed, Hanzo will be slowed by 50% and revealed for 6s.",
+        "skilltag": [
+          "Morph",
+          "Mobility"
         ]
       },
       {
@@ -14097,7 +14097,7 @@
         ]
       },
       {
-        "type": "Skill 3",
+        "type": "Ultimate",
         "skillname": "Thunderclap",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a7bd1cc6fe451768339602321771094a.png",
         "attributes": {
@@ -14135,7 +14135,7 @@
         ]
       },
       {
-        "type": "Ultimate",
+        "type": "Extra Skill",
         "skillname": "Life Recovery",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_13f8eb8f71c22d308124486b630def4c.png",
         "attributes": {},
@@ -15072,7 +15072,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Alpha Wolf Form",
+        "type": "Skill 2 - Wolf Form",
         "skillname": "Kupa, Help!",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ccfd9569e5240ea46584ec0b1db669e8.png",
         "attributes": {
@@ -15109,7 +15109,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Wolf Form",
+        "type": "Skill 3",
         "skillname": "Popol's Surprise",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8e90afefec90b007f23efd1d8a89f0dd.png",
         "attributes": {
@@ -15146,7 +15146,71 @@
         ]
       },
       {
+        "type": "Skill 1 - Alpha Wolf Form",
+        "skillname": "Bite 'em, Kupa!",
+        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_bdd55dca8cccb8db6059ed36a7bf4150.png",
+        "attributes": {
+          "Skill Cost": [
+            "60",
+            "50",
+            "40",
+            "30"
+          ],
+          "Base Damage": [
+            "70",
+            "80",
+            "90",
+            "100"
+          ],
+          "Recharging Time": [
+            "22",
+            "20",
+            "18",
+            "16"
+          ]
+        },
+        "max_levels": 4,
+        "skilldesc": "Popol throws a spear at the target enemy, dealing 80<font color=\"fba51f\"> (+100% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> while simultaneously commanding Kupa to lunge at the target, dealing an additional 70<font color=\"fba51f\"> (+75% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font>. Kupa will continue to attack the target for 3s.\n<font color=\"a6aafb\">Alpha Wolf Form</font>: Kupa stuns the enemy for 1s and bites them 3 times in quick succession.",
+        "skilltag": [
+          "Damage",
+          "CC"
+        ]
+      },
+      {
         "type": "Skill 2 - Alpha Wolf Form",
+        "skillname": "Kupa, Help!",
+        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_041619eeff63fa6b8ec5bee9c3af5591.png",
+        "attributes": {
+          "Cooldown": [
+            "38.0",
+            "35.0",
+            "32.0"
+          ],
+          "Skill Cost": [
+            "100",
+            "120",
+            "140"
+          ],
+          "ATK Speed Boost": [
+            "1.3",
+            "1.5",
+            "1.7"
+          ],
+          "HP Boost": [
+            "1500",
+            "2500",
+            "3500"
+          ]
+        },
+        "max_levels": 3,
+        "skilldesc": "Popol summons Kupa back to his side, gaining a 240<font color=\"fba51f\"> (+200% Extra Physical Attack)</font> shield while dealing 240<font color=\"fba51f\"> (+50% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> to nearby enemies and slowing them by 35% for 0.5s. Kupa will then assist Popol to attack nearby enemies for 3s.\n<font color=\"a6aafb\">Alpha Wolf Form</font>: Kupa darts back to Popol, knocking nearby enemies airborne for 0.2s. The shield and damage are increased to 125%.",
+        "skilltag": [
+          "CC",
+          "AOE"
+        ]
+      },
+      {
+        "type": "Ultimate",
         "skillname": "We Are Angry!",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_247d588d97c1dffa73391a55002ed308.png",
         "attributes": {
@@ -15179,70 +15243,6 @@
         "skilldesc": "Popol and Kupa enter the Enraged state for 12s, gaining 15% extra Movement Speed and increasing their Attack Speed to 1.3 times.\nKupa turns into <font color=\"a6aafb\">Alpha Wolf Form</font>, gaining 1500 extra Max HP, fully restoring its HP, while <font color=\"a6aafb\">enhancing</font> its other skills.",
         "skilltag": [
           "Buff"
-        ]
-      },
-      {
-        "type": "Skill 3",
-        "skillname": "Bite 'em, Kupa!",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_bdd55dca8cccb8db6059ed36a7bf4150.png",
-        "attributes": {
-          "Skill Cost": [
-            "60",
-            "50",
-            "40",
-            "30"
-          ],
-          "Base Damage": [
-            "70",
-            "80",
-            "90",
-            "100"
-          ],
-          "Recharging Time": [
-            "22",
-            "20",
-            "18",
-            "16"
-          ]
-        },
-        "max_levels": 4,
-        "skilldesc": "Popol throws a spear at the target enemy, dealing 80<font color=\"fba51f\"> (+100% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> while simultaneously commanding Kupa to lunge at the target, dealing an additional 70<font color=\"fba51f\"> (+75% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font>. Kupa will continue to attack the target for 3s.\n<font color=\"a6aafb\">Alpha Wolf Form</font>: Kupa stuns the enemy for 1s and bites them 3 times in quick succession.",
-        "skilltag": [
-          "Damage",
-          "CC"
-        ]
-      },
-      {
-        "type": "Ultimate",
-        "skillname": "Kupa, Help!",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_041619eeff63fa6b8ec5bee9c3af5591.png",
-        "attributes": {
-          "Cooldown": [
-            "38.0",
-            "35.0",
-            "32.0"
-          ],
-          "Skill Cost": [
-            "100",
-            "120",
-            "140"
-          ],
-          "ATK Speed Boost": [
-            "1.3",
-            "1.5",
-            "1.7"
-          ],
-          "HP Boost": [
-            "1500",
-            "2500",
-            "3500"
-          ]
-        },
-        "max_levels": 3,
-        "skilldesc": "Popol summons Kupa back to his side, gaining a 240<font color=\"fba51f\"> (+200% Extra Physical Attack)</font> shield while dealing 240<font color=\"fba51f\"> (+50% Total Physical Attack)</font> <font color=\"fb1f1f\">Physical Damage</font> to nearby enemies and slowing them by 35% for 0.5s. Kupa will then assist Popol to attack nearby enemies for 3s.\n<font color=\"a6aafb\">Alpha Wolf Form</font>: Kupa darts back to Popol, knocking nearby enemies airborne for 0.2s. The shield and damage are increased to 125%.",
-        "skilltag": [
-          "CC",
-          "AOE"
         ]
       }
     ]
@@ -18073,7 +18073,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Phylax",
+        "type": "Skill 2 - Phylax",
         "skillname": "Onward",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3f3bd7205e18b8af21c1e04ba5d8aafe.png",
         "attributes": {
