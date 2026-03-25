@@ -9931,7 +9931,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Abyssal Form",
+        "type": "Skill 2 - Elven Form",
         "skillname": "Abyssal Arrow",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e672c608df7806e99148d0176149a316.png",
         "attributes": {
@@ -9976,7 +9976,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Elven Form",
+        "type": "Ultimate - Elven Form",
         "skillname": "Primal Darkness",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_abd29236983e4d3d1bfd361b2e242111.png",
         "attributes": {
@@ -10021,7 +10021,7 @@
         ]
       },
       {
-        "type": "Skill 2 - Abyssal Form",
+        "type": "Skill 1 - Abyssal Form",
         "skillname": "Soul Eater",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_beba48ddc774a4267f72ba8a93666998.png",
         "attributes": {
@@ -10058,7 +10058,7 @@
         ]
       },
       {
-        "type": "Ultimate - Elven Form",
+        "type": "Skill 2 - Abyssal Form",
         "skillname": "Garotte",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c2a0d728e05af9460c1cfa97bd0acd56.png",
         "attributes": {
@@ -10481,7 +10481,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Normal",
+        "type": "Skill 1",
         "skillname": "Wind Blade",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1dbf6315ad50ccd40b818a1c5ec0a3b4.png",
         "attributes": {
@@ -10517,7 +10517,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Sorrow",
+        "type": "Skill 2",
         "skillname": "Windblow",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_181d88da995a75cdfe00db1c0fd73d3d.png",
         "attributes": {
@@ -10554,7 +10554,7 @@
         ]
       },
       {
-        "type": "Skill 1 - Scatter",
+        "type": "Ultimate",
         "skillname": "Windstorm",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9d37de1a3a365be9dab282f2fdbd9265.png",
         "attributes": {
@@ -10581,188 +10581,6 @@
           "CC",
           "AOE"
         ]
-      },
-      {
-        "type": "Skill 2 - Normal",
-        "skillname": "",
-        "skillicon": "",
-        "attributes": {
-          "Cooldown": [
-            "8.5",
-            "8.5",
-            "8.5",
-            "8.5",
-            "8.5",
-            "8.5"
-          ],
-          "Base Damage": [
-            "410",
-            "450",
-            "490",
-            "530",
-            "570",
-            "610"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "",
-        "skilltag": []
-      },
-      {
-        "type": "Skill 2 - Fix",
-        "skillname": "",
-        "skillicon": "",
-        "attributes": {
-          "Cooldown": [
-            "8.5",
-            "8.5",
-            "8.5",
-            "8.5",
-            "8.5",
-            "8.5"
-          ],
-          "Skill Cost": [
-            "90",
-            "95",
-            "100",
-            "105",
-            "110",
-            "115"
-          ],
-          "Base Damage": [
-            "410",
-            "450",
-            "490",
-            "530",
-            "570",
-            "610"
-          ],
-          "Continuous Damage": [
-            "150",
-            "165",
-            "180",
-            "195",
-            "210",
-            "225"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "",
-        "skilltag": []
-      },
-      {
-        "type": "Skill 2 - Control",
-        "skillname": "",
-        "skillicon": "",
-        "attributes": {
-          "Cooldown": [
-            "8.5",
-            "8.5",
-            "8.5",
-            "8.5",
-            "8.5",
-            "8.5"
-          ],
-          "Skill Cost": [
-            "90",
-            "95",
-            "100",
-            "105",
-            "110",
-            "115"
-          ],
-          "Base Damage": [
-            "410",
-            "450",
-            "490",
-            "530",
-            "570",
-            "610"
-          ]
-        },
-        "max_levels": 6,
-        "skilldesc": "",
-        "skilltag": []
-      },
-      {
-        "type": "Ultimate - Normal",
-        "skillname": "",
-        "skillicon": "",
-        "attributes": {
-          "Cooldown": [
-            "40.0",
-            "36.0",
-            "32.0"
-          ],
-          "Skill Cost": [
-            "150",
-            "200",
-            "250"
-          ],
-          "Base Damage": [
-            "800",
-            "1000",
-            "1200"
-          ]
-        },
-        "max_levels": 3,
-        "skilldesc": "",
-        "skilltag": []
-      },
-      {
-        "type": "Ultimate - Death",
-        "skillname": "",
-        "skillicon": "",
-        "attributes": {
-          "Cooldown": [
-            "40.0",
-            "36.0",
-            "32.0"
-          ],
-          "Skill Cost": [
-            "150",
-            "200",
-            "250"
-          ],
-          "Base Damage": [
-            "1200",
-            "1500",
-            "1800"
-          ],
-          "Magic DEF Reduction": [
-            "15",
-            "25",
-            "35"
-          ]
-        },
-        "max_levels": 3,
-        "skilldesc": "",
-        "skilltag": []
-      },
-      {
-        "type": "Ultimate - Gather",
-        "skillname": "",
-        "skillicon": "",
-        "attributes": {
-          "Cooldown": [
-            "40.0",
-            "36.0",
-            "32.0"
-          ],
-          "Skill Cost": [
-            "150",
-            "200",
-            "250"
-          ],
-          "Base Damage": [
-            "800",
-            "1000",
-            "1200"
-          ]
-        },
-        "max_levels": 3,
-        "skilldesc": "",
-        "skilltag": []
       }
     ]
   },
@@ -11105,7 +10923,7 @@
         ]
       },
       {
-        "type": "Ultimate",
+        "type": "Ultimate - Default",
         "skillname": "Order & Chaos",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_89f09bb6c7f9eece05e75759ca7eedef.png",
         "attributes": {
@@ -11128,21 +10946,26 @@
         ]
       },
       {
-        "type": "Unknown",
-        "skillname": "Chaos Assault ",
-        "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1785f547a0d65857cdd756fd248932ed.png",
-        "attributes": {},
-        "max_levels": 1,
-        "skilldesc": "Lunox unleashes Chaos Energy at an enemy, dealing <font color=\"7f62fe\">Magic Damage</font> equal to 250<font color=\"62f8fe\"> (+120% Total Magic Power)</font> plus 2.5% of the target's Max HP (1.5% of Max HP against Creeps).\n\nWhile enhanced by Power of Chaos, this skill has a brief cooldown and its cast interval is unaffected by Cooldown Reduction.",
-        "skilltag": [
-          "Damage"
-        ]
-      },
-      {
-        "type": "Unknown",
+        "type": "Ultimate - Light",
         "skillname": "Power of Order: Brilliance",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_928f5ae97116806edf7fd06522aee9e9.png",
-        "attributes": {},
+        "attributes": {
+          "Cooldown": [
+            "30.0",
+            "26.0",
+            "22.0"
+          ],
+          "Skill Cost": [
+            "120",
+            "160",
+            "200"
+          ],
+          "Base Damage": [
+            "100",
+            "120",
+            "140"
+          ]
+        },
         "max_levels": 1,
         "skilldesc": "Lunox extends the Light Barrier, becomes invincible for 2.5s, and gains 30% extra Movement Speed while dealing 100<font color=\"62f8fe\"> (+50% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font> every 0.5s to nearby enemies.",
         "skilltag": [
@@ -11151,10 +10974,26 @@
         ]
       },
       {
-        "type": "Unknown",
+        "type": "Ultimate - Dark",
         "skillname": "Power of Chaos: Darkening",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3673d187cf12182b09ba1a0054ca0742.png",
-        "attributes": {},
+        "attributes": {
+          "Cooldown": [
+            "30.0",
+            "26.0",
+            "22.0"
+          ],
+          "Skill Cost": [
+            "120",
+            "160",
+            "200"
+          ],
+          "Base Damage": [
+            "250",
+            "350",
+            "450"
+          ]
+        },
         "max_levels": 1,
         "skilldesc": "Lunox blinks in the target direction, dealing 250<font color=\"62f8fe\"> (+100% Total Magic Power)</font> <font color=\"7f62fe\">Magic Damage</font> to nearby enemies, slowing them by 30% for 4s.\n\nFor the next 4s, Lunox enhances her <font color=\"a6aafb\">Power of Chaos</font> to greatly reduce the cooldown of <font color=\"a6aafb\">Chaos Assault</font> (unaffected by CD Reduction), but using <font color=\"a6aafb\">Starlight Pulse</font> will end this enhanced state.",
         "skilltag": [
@@ -14759,7 +14598,7 @@
         ]
       },
       {
-        "type": "Skill 3",
+        "type": "Ultimate",
         "skillname": "Bats Feast",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_dc9c4f09f975249b8587a6fdf61c8af3.png",
         "attributes": {
@@ -14792,7 +14631,7 @@
         ]
       },
       {
-        "type": "Ultimate",
+        "type": "Extra Skill",
         "skillname": "Moonlit Waltz",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_44c27e7071734bb9f074bfa9c60c17b6.png",
         "attributes": {},
