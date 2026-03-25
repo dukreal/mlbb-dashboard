@@ -2,7 +2,7 @@
 
 import React, { useEffect, memo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MLBBHero, HeroSkillTag } from "@/types/hero";
+import { MLBBHero } from "@/types/hero";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SvgIconProps } from "@mui/material";
@@ -46,6 +46,32 @@ const ROLE_ICONS: Record<string, string> = {
   tank: "https://akmweb.youngjoygame.com/web/gms/image/60638c59536d9505c9c731af13f7fdfd.png",
   mage: "https://akmweb.youngjoygame.com/web/gms/image/1c6985dd0caec2028ccb6d1b8ca95e0f.png",
 };
+
+const TAG_COLORS: Record<string, string> = {
+  "AOE": "#e8562a", "DAMAGE": "#e8562a", "BURST": "#d94f2b",
+  "CC": "#b84a9c", "SLOW": "#8e63d4", "CC IMMUNE": "#7c3aed",
+  "BUFF": "#1d9e75", "HEAL": "#22c55e", "SHIELD": "#3b82f6",
+  "REDUCE DMG": "#3b82f6", "BLINK": "#0ea5e9", "CHARGE": "#7c3aed",
+  "MOBILITY": "#7c3aed", "SPEED UP": "#facc15", "TELEPORT": "#a78bfa",
+  "CONCEAL": "#64748b", "CAMOUFLAGE": "#64748b", "ATTACH": "#94a3b8",
+  "INVINCIBLE": "#f7e273", "DEATH IMMUNE": "#e2c95a", "DEATH IMMUNITY": "#e2c95a",
+  "DEBUFF": "#be185d", "REMOVE CC": "#65a30d", "MORPH": "#0891b2", "SUMMON": "#5335ff"
+};
+
+const getTagColor = (name: string) => TAG_COLORS[name.toUpperCase()] || "#64748b";
+
+/** 
+ * Utility to render MLBB Skill Descriptions with Colors 
+ */
+function renderSkillDesc(text: string) {
+  if (!text) return null;
+  const formatted = text
+    .replace(/<font color="([^"]+)">/g, '<span style="color: #$1">')
+    .replace(/<\/font>/g, '</span>')
+    .replace(/\n/g, '<br />');
+
+  return <div dangerouslySetInnerHTML={{ __html: formatted }} />;
+}
 
 interface HeroDetailsProps {
   hero: MLBBHero | null;
@@ -183,7 +209,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                 </div>
               </div>
 
-              {/* TABS SECTION: Abilities | Best Counters | Best Teammates */}
+              {/* TABS SECTION */}
               <section className="mt-32 space-y-10">
                 <Tabs defaultValue="abilities" className="w-full">
                   <div className="border-b border-zinc-900 pb-2">
@@ -221,52 +247,47 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                           <div key={index} className="flex flex-col md:flex-row gap-8 lg:gap-12 p-8 lg:p-10 rounded-[2.5rem] bg-zinc-900/10 border border-zinc-800/40 backdrop-blur-md transition-all">
                             <div className="flex flex-col items-center gap-5 shrink-0 w-28 lg:w-32">
                               <div className="relative w-24 h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden border-2 border-zinc-800 bg-zinc-900 shadow-xl">
-                                <img src={skill.icon} alt={skill.name} className="w-full h-full object-cover select-none" referrerPolicy="no-referrer" draggable={false} />
+                                <img src={skill.skillicon} alt={skill.skillname} className="w-full h-full object-cover select-none" referrerPolicy="no-referrer" draggable={false} />
                               </div>
                               <Badge variant="outline" className="text-[11px] lg:text-xs font-bold border-zinc-700 text-zinc-400 px-3 py-2 rounded-xl w-full flex items-center justify-center text-center h-auto min-h-9 bg-zinc-900/30">
-                                {skill.type.toLowerCase().split(" ").map((word) => word.charAt(0).toUpperCase() + word.slice(1)).join(" ")}
+                                {skill.type}
                               </Badge>
                             </div>
-                            <div className="flex-1 space-y-6">
+                            <div className="flex-1 space-y-6 text-left">
                               <div className="flex flex-col gap-4 border-b border-zinc-800/50 pb-5">
                                 <div className="space-y-3">
-                                  <h3 className="text-2xl lg:text-3xl font-bold text-white tracking-tight">{skill.name}</h3>
-                                  {skill.tags && skill.tags.length > 0 && (
+                                  <h3 className="text-2xl lg:text-3xl font-bold text-white tracking-tight">{skill.skillname}</h3>
+                                  {/* MECHANICS TAGS */}
+                                  {skill.skilltag && skill.skilltag.length > 0 && (
                                     <div className="flex flex-wrap gap-2.5">
-                                      {skill.tags.map((tag: HeroSkillTag, i: number) => (
-                                        <div
-                                          key={i}
-                                          className="px-3 py-1 rounded-md text-[10px] font-black uppercase tracking-[0.15em] border-2 transition-all duration-300"
-                                          style={{
-                                            backgroundColor: `${tag.color}33`,
-                                            borderColor: `${tag.color}99`,
-                                            color: tag.color,
-                                            boxShadow: `0 0 12px ${tag.color}30`,
-                                            textShadow: `0 0 4px ${tag.color}40`,
-                                          }}
-                                        >
-                                          {tag.name}
-                                        </div>
-                                      ))}
-                                    </div>
-                                  )}
-                                </div>
-                                <div className="flex flex-wrap gap-5">
-                                  {skill.cooldown && skill.cooldown !== "null" && (
-                                    <div className="flex items-center gap-1.5 text-zinc-300">
-                                      <Hourglass size={16} />
-                                      <span className="text-xs font-semibold uppercase tracking-wider">Cooldown: {skill.cooldown}s</span>
-                                    </div>
-                                  )}
-                                  {skill.manacost && skill.manacost !== "null" && (
-                                    <div className="flex items-center gap-1.5 text-zinc-300">
-                                      <Zap size={16} />
-                                      <span className="text-xs font-semibold uppercase tracking-wider">Cost: {skill.manacost}</span>
+                                      {skill.skilltag.map((tagName, i) => {
+                                        const color = getTagColor(tagName);
+                                        return (
+                                          <div
+                                            key={i}
+                                            className="px-3 py-1 rounded-md text-[10px] font-black uppercase tracking-[0.15em] border-2"
+                                            style={{
+                                              backgroundColor: `${color}33`,
+                                              borderColor: `${color}99`,
+                                              color: color,
+                                              boxShadow: `0 0 12px ${color}30`,
+                                            }}
+                                          >
+                                            {tagName}
+                                          </div>
+                                        );
+                                      })}
                                     </div>
                                   )}
                                 </div>
                               </div>
-                              <p className="text-base lg:text-lg leading-[1.65] text-zinc-200 max-w-4xl font-normal">{skill.description}</p>
+
+                              {/* COLORED DESCRIPTION */}
+                              <div className="text-base lg:text-lg leading-[1.65] text-zinc-300 max-w-4xl font-normal">
+                                {renderSkillDesc(skill.skilldesc)}
+                              </div>
+
+                              {/* ATTRIBUTES */}
                               {Object.keys(skill.attributes).length > 0 && (
                                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-6 pt-4">
                                   {Object.entries(skill.attributes).map(([key, values]) => (
@@ -286,11 +307,10 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                     {hero.matchups && (
                       <>
                         <TabsContent value="counters" className="mt-0 outline-none">
-                          <MatchupSection title="Best Counters" data={hero.matchups.counters.slice(0, 5)} type="counter" />
+                          <MatchupSection title="Best Counters" data={hero.matchups.counters} type="counter" />
                         </TabsContent>
-
                         <TabsContent value="teammates" className="mt-0 outline-none">
-                          <MatchupSection title="Best Teammates" data={hero.matchups.teammates.slice(0, 5)} type="teammate" />
+                          <MatchupSection title="Best Teammates" data={hero.matchups.teammates} type="teammate" />
                         </TabsContent>
                       </>
                     )}
@@ -324,7 +344,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
 const RatingRow = memo(({ label, value }: { label: string; value: string }) => {
   const score = parseInt(value);
   return (
-    <div className="space-y-3.5">
+    <div className="space-y-3.5 text-left">
       <div className="flex justify-between items-end px-0.5">
         <span className="text-[12px] font-black uppercase text-zinc-300 tracking-widest">{label}</span>
         <div className="flex items-baseline">
@@ -344,13 +364,13 @@ RatingRow.displayName = "RatingRow";
 
 const StatBox = memo(({ label, value, icon: Icon }: { label: string; value: string; icon: any }) => {
   return (
-    <div className="flex items-start gap-5">
+    <div className="flex items-start gap-5 text-left">
       <div className="text-white mt-1 shrink-0">
         <Icon size={24} strokeWidth={2.5} />
       </div>
       <div className="flex flex-col">
         <span className="text-[11px] font-black text-zinc-300 uppercase tracking-widest leading-none mb-2">{label}</span>
-        <span className="text-2xl font-black text-white tracking-tighter leading-none">{value}</span>
+        <span className="text-xl font-bold text-white tracking-tight leading-none">{value}</span>
       </div>
     </div>
   );

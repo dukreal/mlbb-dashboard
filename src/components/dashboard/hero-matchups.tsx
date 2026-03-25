@@ -11,32 +11,23 @@ interface MatchupSectionProps {
 }
 
 export const MatchupSection = memo(({ title, data, type }: MatchupSectionProps) => {
-  if (!data || data.length === 0) {
-    return (
-      <div className="py-10 text-center border-2 border-dashed border-zinc-800 rounded-[2rem]">
-        <p className="text-zinc-500 font-medium italic text-sm">No matchup data available.</p>
-      </div>
-    );
-  }
+  if (!data || data.length === 0) return null;
 
   return (
     <div className="space-y-8">
-      {/* SECTION HEADER */}
       <div className="flex items-center gap-3">
         {type === "counter" ? (
           <Target className="text-white" size={22} strokeWidth={2.5} />
         ) : (
           <Users className="text-white" size={22} strokeWidth={2.5} />
         )}
-        <h3 className="text-2xl font-bold text-white tracking-tight leading-none">
+        <h3 className="text-2xl font-bold text-white tracking-tight leading-none italic uppercase">
           {title}
         </h3>
       </div>
 
-      {/* MATCHUP LIST */}
-      <div className="grid grid-cols-1 gap-4">
+      <div className="grid grid-cols-1 gap-3">
         {data.map((entry) => {
-          // FORMATTING LOGIC: Convert 2.9188 to 2.92%
           const score = entry.increase_win_rate !== null 
             ? `${entry.increase_win_rate.toFixed(2)}%` 
             : "0.00%";
@@ -44,18 +35,17 @@ export const MatchupSection = memo(({ title, data, type }: MatchupSectionProps) 
           return (
             <div
               key={entry.heroid}
-              className="flex items-center justify-between p-4 rounded-[1.5rem] bg-zinc-900/20 border border-zinc-800/40"
+              className="flex items-center justify-between p-3 rounded-[1.5rem] bg-zinc-900/20 border border-zinc-800/40"
             >
               <div className="flex items-center gap-5">
-                {/* RANK */}
                 <span className="text-[11px] font-black text-zinc-600 w-5 text-center">
                   #{entry.rank}
                 </span>
                 
-                {/* HERO ICON - Added no-referrer to fix missing image issue */}
+                {/* ICON: Now using the URL from heroes_icon_url.json */}
                 <div className="w-14 h-14 rounded-2xl bg-zinc-800 overflow-hidden border border-transparent shadow-xl shrink-0">
                   <img
-                    src={`https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_${entry.heroid}.png`}
+                    src={entry.iconUrl || "/placeholder-hero.png"}
                     alt={entry.hero_name}
                     className="w-full h-full object-cover select-none"
                     referrerPolicy="no-referrer"
@@ -64,14 +54,12 @@ export const MatchupSection = memo(({ title, data, type }: MatchupSectionProps) 
                   />
                 </div>
 
-                {/* NAME */}
-                <span className="text-lg font-bold text-zinc-100 tracking-tight">
+                <span className="text-lg font-bold text-zinc-100 tracking-tight uppercase italic">
                   {entry.hero_name}
                 </span>
               </div>
 
-              {/* SCORE DISPLAY (INCREASE WIN RATE) */}
-              <div className="text-right flex flex-col items-end">
+              <div className="text-right flex flex-col items-end px-2">
                 <div className="flex items-center gap-2">
                   <TrendingUp 
                     size={18} 
@@ -82,7 +70,7 @@ export const MatchupSection = memo(({ title, data, type }: MatchupSectionProps) 
                     {score}
                   </span>
                 </div>
-                <span className="text-[10px] font-bold text-zinc-500 uppercase tracking-widest mt-1">
+                <span className="text-[9px] font-bold text-zinc-500 uppercase tracking-widest mt-1">
                   Advantage Score
                 </span>
               </div>

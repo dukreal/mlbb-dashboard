@@ -19,7 +19,6 @@ export interface BaseStats {
   movement_speed: string;
 }
 
-// Interface for the skill mechanics (BUFF, CC, AoE, etc.)
 export interface HeroSkillTag {
   name: string;
   color: string;
@@ -27,19 +26,16 @@ export interface HeroSkillTag {
 
 export interface HeroSkill {
   type: string;
+  skillname: string;    // Matches your improved JSON
+  skillicon: string;    // Matches your improved JSON
+  skilldesc: string;    // Matches your improved JSON
+  skilltag: string[];   // Array of strings (e.g. ["Buff", "AoE"])
   attributes: Record<string, string[]>;
   max_levels: number;
-  name: string;
-  description: string;
-  cooldown: string;
-  manacost: string;
-  icon: string;
-  tags?: HeroSkillTag[];
 }
 
 /** 
- * NEW: Interface for Matchup Data (Counters & Teammates)
- * Matches the output of your Python Playwright script
+ * NEW: The missing exported members for Matchups
  */
 export interface MatchupEntry {
   heroid: number;
@@ -47,13 +43,13 @@ export interface MatchupEntry {
   hero_win_rate: number | null;
   increase_win_rate: number | null;
   rank: number;
-  iconUrl?: string;
+  iconUrl?: string; // Hydrated by hero-loader.ts
 }
 
 export interface HeroMatchups {
   hero_id: number;
   hero_name: string;
-  hero_key: string; // The string ID (e.g., "miya")
+  hero_key: string;
   best_counters: MatchupEntry[];
   best_teammates: MatchupEntry[];
 }
@@ -61,22 +57,24 @@ export interface HeroMatchups {
 export interface HeroData {
   id: string;
   key: number;
+  hero_id: number;
   hero_name: string;
+  icon: string;
+  portrait: string;
   main_role: string;
   all_roles: string[];
   main_lane: string;
+  lanes: string[];
+  speciality: string[];
   ratings: HeroRatings;
   base_stats: BaseStats;
   skills: HeroSkill[];
 }
 
 export interface MLBBHero extends HeroData {
+  // These provide compatibility for existing components
   portraitUrl: string;
   iconUrl: string;
-  /** 
-   * ADDED: Optional field to store the matchup data 
-   * after merging in the hero-loader.ts
-   */
   matchups?: {
     counters: MatchupEntry[];
     teammates: MatchupEntry[];
