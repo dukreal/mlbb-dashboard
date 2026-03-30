@@ -5,6 +5,7 @@
     "hero_id": 1,
     "hero_name": "Miya",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/299d8aab8de508fff88c1f1e935017cb.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/6667b3e9109ca180e63c524471f29278.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_32c0d9d3a727a9052754296af6251435.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -164,6 +165,7 @@
     "hero_id": 2,
     "hero_name": "Balmond",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_28de3ca255581db76a796afacea2b203.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_8f49801963afcd9b7c6fe6f59153ccc0.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_6c018674ea709972b4837ec90518e79e.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -299,6 +301,7 @@
     "hero_id": 3,
     "hero_name": "Saber",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_9642be6622ac24480431681f09ad7380.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_15e49c7cc5398ca2d903a485145c0702.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_b5980d535886303ad116fba3463c76ce.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -458,6 +461,7 @@
     "hero_id": 4,
     "hero_name": "Alice",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/86831c838a2bf2a1745811f7eb9496f1.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/66c9a33b830173a5fd93d9940429b491.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_ec3d5c825e893947a235ea9ea59fff77.png",
     "main_role": "Tank",
     "all_roles": [
@@ -612,6 +616,7 @@
     "hero_id": 5,
     "hero_name": "Nana",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_02df4eda75eb45735a76eb4bbe39138c.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_4258783f9b44a4ad1c67c0b8781051fa.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_ce58cae711d0907a722de0e65fbb85b7.png",
     "main_role": "Mage",
     "all_roles": [
@@ -773,6 +778,7 @@
     "hero_id": 6,
     "hero_name": "Tigreal",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_23660115389f8f5a6e7cee37cde10671.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_ec2ad5967a2d8a0ac5e2cef2a1e24411.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4e0005dbfb1376beaccc54ef7aa39375.png",
     "main_role": "Tank",
     "all_roles": [
@@ -911,6 +917,7 @@
     "hero_id": 7,
     "hero_name": "Alucard",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_c20e48bd23fe5edca17dc4c05d561710.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_c9a8a8b1bb1fed4190f3168d44810ce3.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_df695a059c0f0a63fe922786098089cd.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -1059,6 +1066,7 @@
     "hero_id": 8,
     "hero_name": "Karina",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_c5a10fb1fb590ae51d1c7118f3937c14.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_37b5cfef887a7afc63dfaf7b6dfd65c4.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_4685e0fb17e2fabaf9cb23f8db8fa262.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -1226,6 +1234,7 @@
     "hero_id": 9,
     "hero_name": "Akai",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/1fee18007166e2e449239587545c2c10.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_2fab842e4c04d903b1b46c3c4a1d02ad.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_809a19d0ffb6cd1b33d0f6d5715f8952.png",
     "main_role": "Tank",
     "all_roles": [
@@ -1374,6 +1383,7 @@
     "hero_id": 10,
     "hero_name": "Franco",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_64e00f9a9ce834e493c13f1e52e15f62.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_ad018d324520174ab87b3a1098507fb6.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_d9a0d6432cc0610a2232b2d2ed5e09ce.png",
     "main_role": "Tank",
     "all_roles": [
@@ -1527,6 +1537,7 @@
     "hero_id": 11,
     "hero_name": "Bane",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/ec9fd2ca0f85e66b324beaf7febfde63.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_7060e1c063474bb8ff9472d61f7ce4c3.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_846a816f7905f17c81cb35e7f3ff1c3e.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -1690,6 +1701,7 @@
     "hero_id": 12,
     "hero_name": "Bruno",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/af551d16e9c04164c90e209dc4c75b1c.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_03cd0ea0a0f0bd80ca4f7462174f80b1.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_68d7ca30f69cb691125e3f03cd782a53.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -1846,6 +1858,7 @@
     "hero_id": 13,
     "hero_name": "Clint",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/424de435edcaf67ab6ac211a3db646a6.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_8136b5ece3387dfe347956f797a14a5d.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ffb96ce8d57c9987401f9c5bfebee3b2.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -1999,6 +2012,7 @@
     "hero_id": 14,
     "hero_name": "Rafaela",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_cff725e14a043421803080af07949c0e.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_491618ae5cb3d561f5f02fbb3d82a83d.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f22e22659e8b1acfb665aec8eaffabd7.png",
     "main_role": "Support",
     "all_roles": [
@@ -2153,6 +2167,7 @@
     "hero_id": 15,
     "hero_name": "Eudora",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/79b29476fd42bb3d3e048dc6bcfc7687.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/8db55c33fd2a5c84822a2a6c51e1fb18.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_42/100_1384ce93e5bdb142ea4e5e6b9f941ff1.png",
     "main_role": "Mage",
     "all_roles": [
@@ -2339,6 +2354,7 @@
     "hero_id": 16,
     "hero_name": "Zilong",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_af87bb386288a5edb9afa85c1b07da3d.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_90df181873c42df22049aa056662a934.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_6ed2ac1fc08f2b5118b579b188289ca1.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -2495,6 +2511,7 @@
     "hero_id": 17,
     "hero_name": "Fanny",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_ae8ca46da01da69619a6c03dc7069921.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_74fabc6c0d5db065fbb836b6879f36ca.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_8ea3a95fa3c726ed0338c0fdd21ad991.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -2618,6 +2635,7 @@
     "hero_id": 18,
     "hero_name": "Layla",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/f222c954b85dce735916d61fc355668a.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_0db5131842bec1fdbdf5f8533ebada2c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6efe9abc2047f59d45fa1c88fb1261b7.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -2777,6 +2795,7 @@
     "hero_id": 19,
     "hero_name": "Minotaur",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_6104e5d77623c131a84b88575739713d.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_db4fda77f902f3dde09d247498da23cc.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_3b7cb3a2be4264d3927f3b5a5050117a.png",
     "main_role": "Tank",
     "all_roles": [
@@ -2915,6 +2934,7 @@
     "hero_id": 20,
     "hero_name": "Lolita",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/ce1c7af1a946f70585e40296ba85c9c0.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_1bc4973e512cf4958fe639e12391666e.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_55de18c865efe8e360b3b9ae463d76a2.png",
     "main_role": "Support",
     "all_roles": [
@@ -3083,6 +3103,7 @@
     "hero_id": 21,
     "hero_name": "Hayabusa",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/fa4a5039fcabbfe232be96f533d1318e.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_82560b092a98bcb328def807a2a48cfe.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_63cb1f44bf906b71767a000e38d8ab14.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -3223,6 +3244,7 @@
     "hero_id": 22,
     "hero_name": "Freya",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/1ae9ac180ace59bc164b59093ef2e414.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/71d910744206adec64f7c5e97b0698c7.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_b95ffc5769380f10a409d864d4162433.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -3386,6 +3408,7 @@
     "hero_id": 23,
     "hero_name": "Gord",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/33c6326c4a1fc7ed885be8840fda6bd7.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/fe7d492d0a71f96da12ff710d41a76cb.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_6ba16b4ca438152a629e7706cbd7453d.png",
     "main_role": "Mage",
     "all_roles": [
@@ -3538,6 +3561,7 @@
     "hero_id": 24,
     "hero_name": "Natalia",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_167abfbefedc99d6be616bb97f3f0b1f.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_79e90c124d786bbfdae31f3a28827e7d.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_ee09a1367736f8a46641f07f5d1d6618.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -3692,6 +3716,7 @@
     "hero_id": 25,
     "hero_name": "Kagura",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/f4b49a4cef7926adb059933d0158a967.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_64bda78279297278301e236555a15404.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_634196d9234babcc3072155d4fefaf0c.png",
     "main_role": "Mage",
     "all_roles": [
@@ -3971,6 +3996,7 @@
     "hero_id": 26,
     "hero_name": "Chou",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_d0f3f3411e585c106a34f0e57c157c8c.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_011409dfe1a2cf4cf5f879ea07fb3a8e.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_42/100_850c4b51e3dbab3fd12a718917eaaf44.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -4104,6 +4130,7 @@
     "hero_id": 27,
     "hero_name": "Sun",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/9b8b253c24f0cca3b9a31edf90006524.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_5dd440a371270f458071305b9bf107b5.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_eb0864090b1d5307dfeba628de0d294a.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -4288,6 +4315,7 @@
     "hero_id": 28,
     "hero_name": "Alpha",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_eed2e33ec8c273b456e011b4732b42e8.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_0fd2c33fbf0235703b1c936059cf1b8e.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_d3993266ec8b303b02c845f2c75d5e6d.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -4462,6 +4490,7 @@
     "hero_id": 29,
     "hero_name": "Ruby",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_73beab0536050bba2b6c52489b5bd230.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_2cfc71331f6e2435394bfa44c322405c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_5b9d38f9f2e7ca03f9f489de19656bc9.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -4600,6 +4629,7 @@
     "hero_id": 30,
     "hero_name": "Yi Sun-shin",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_2c58c685825527c0643de5e0af8e0c2a.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_42a497ad29f61bdc1cea4bc6a9e1e163.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3fe7fdb5f2aedef505f3728c28572e2e.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -4754,6 +4784,7 @@
     "hero_id": 31,
     "hero_name": "Moskov",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/5c4587c25e681be1aecfda0cfbe44714.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_843f1c2c3a1b2d4da2fc2ec73cf47cfa.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9cf1a5936ac506d5e1b911be097acfb7.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -4913,6 +4944,7 @@
     "hero_id": 32,
     "hero_name": "Johnson",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/6207fbd29715174199c9b0b221e33998.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_b40543fb2ad8f8ef198c66f0d9eadeef.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9939e5cc09011a287a989b7d4b3aec4d.png",
     "main_role": "Tank",
     "all_roles": [
@@ -5054,6 +5086,7 @@
     "hero_id": 33,
     "hero_name": "Cyclops",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_fc97f5a70d8eeacbc455e88030dc80de.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_b506976dcb608de1f369ab8f6b3cb055.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_71c31e9801e7d1b40604d54099b30054.png",
     "main_role": "Mage",
     "all_roles": [
@@ -5188,6 +5221,7 @@
     "hero_id": 34,
     "hero_name": "Estes",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_0a256a99be4eb87ce385515666707d17.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_137acad8cd747ef9d0dec755158aff18.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a3619b68f415405f0a1ad77be31eb64d.png",
     "main_role": "Support",
     "all_roles": [
@@ -5350,6 +5384,7 @@
     "hero_id": 35,
     "hero_name": "Hilda",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_cdf5a0543dc8582be3b3be49971755c9.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_35f2e88037398136c01b314deb573eb0.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_ee3a714054edf41ae09dd0c33faf07de.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -5504,6 +5539,7 @@
     "hero_id": 36,
     "hero_name": "Aurora",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/ed2295c60bd772b89b7bdbbc2aee6095.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_58b97db6a5c286059057d42289612b16.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1f3f900f917956e81d7764b9e5ffeb3d.png",
     "main_role": "Mage",
     "all_roles": [
@@ -5671,6 +5707,7 @@
     "hero_id": 37,
     "hero_name": "Lapu-Lapu",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_4099998ef69c6e791386cd653e5db9f1.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_d407ccb622db392981d2fceff06d757c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_b72b473b98494269cedbba84d4888409.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -5831,7 +5868,7 @@
           "AOE"
         ]
       },
-            {
+      {
         "type": "Ultimate - Normal",
         "skillname": "Bravest Fighter",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a7b0ba6060cb97e213bbb75c24404a2f.png",
@@ -5896,6 +5933,7 @@
     "hero_id": 38,
     "hero_name": "Vexana",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/8b683bc21e564058d6324d504d8f4e12.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_f1a01e297d30d147c16342efc357275e.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_39c9058219c59535e9ed07645c8d9dd3.png",
     "main_role": "Mage",
     "all_roles": [
@@ -6062,6 +6100,7 @@
     "hero_id": 39,
     "hero_name": "Roger",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/39851807e78d446989a59ada3877214d.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_ff92c4b5afb41060af1b951ba9f03edd.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_168335bcb95f73c6d653ec4971420923.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -6335,6 +6374,7 @@
     "hero_id": 40,
     "hero_name": "Karrie",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_84c88bdbf1f76fb50eb2faf5e5062a8c.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_bd34b1ec70de7a32b724dd606cb56331.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_4a4cb5e4c5df81e1fea1b75ab3b774b7.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -6489,6 +6529,7 @@
     "hero_id": 41,
     "hero_name": "Gatotkaca",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_254e963426d9fc39ddd3ca05c99edd3e.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_a9a9551515638bb9b6128eef1ee916bd.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_e3ccd096c9c4649519d736073acca91a.png",
     "main_role": "Tank",
     "all_roles": [
@@ -6633,6 +6674,7 @@
     "hero_id": 42,
     "hero_name": "Harley",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_97ca33b01806c3fadfd3e64ba73c6d1f.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_7b867b2f05de71466a0e98ea6898eff2.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_503566ddaa4727778929dee4b3a01807.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -6794,6 +6836,7 @@
     "hero_id": 43,
     "hero_name": "Irithel",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_451d088f01e4ea8660917cdedf4f2e21.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_f999fb58616e2d87c29dcb92177990f5.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_5af934fae1b64f1c689a346741a49858.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -6922,6 +6965,7 @@
     "hero_id": 44,
     "hero_name": "Grock",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/437571ec07ff85626d247e4e0ce0c051.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/c5df319054bcefec1d17c771b45b9e10.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_902/100_517b20f98bf1859bc57f5cc1b477b0e8.png",
     "main_role": "Tank",
     "all_roles": [
@@ -7074,6 +7118,7 @@
     "hero_id": 45,
     "hero_name": "Argus",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/0b5293fd74807e7df7639eeba4126d52.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_802afa50ffd43d553c3b924d111249c1.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ee4f9ddb2f82ef0dfc99bb72e0a8f557.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -7207,6 +7252,7 @@
     "hero_id": 46,
     "hero_name": "Odette",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/84bb0394443db64729b26898974740bc.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_7448f16293a6be9311f82d581e78749a.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_6fd1d8e4d436d1de3102a7880cd61cbd.png",
     "main_role": "Mage",
     "all_roles": [
@@ -7366,6 +7412,7 @@
     "hero_id": 47,
     "hero_name": "Lancelot",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/7399f07d7a41256f9422a3f02cc04884.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_015bacc4e1111e5e2b4a33b5e58ff106.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_aa4070a1eb5a53e1824bc9b2d9a47ed2.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -7520,6 +7567,7 @@
     "hero_id": 48,
     "hero_name": "Diggie",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_0ae1a0cb0222ebc952fead5310cefad1.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_91b0167c49a789de46de29c3714da515.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7a7a688cf1562a124f7183b2c2957608.png",
     "main_role": "Support",
     "all_roles": [
@@ -7661,6 +7709,7 @@
     "hero_id": 49,
     "hero_name": "Hylos",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_f6c06bb0d5187806f76c9f87f0227761.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_bcc177e4f62634fca493732e4058c626.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_22d8716de16d99253671c2f9e59d9ef3.png",
     "main_role": "Tank",
     "all_roles": [
@@ -7841,6 +7890,7 @@
     "hero_id": 50,
     "hero_name": "Zhask",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_1103416827aeecda2c9c8852d83f07af.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_6e99f11105dc89bff1932cd4b3809c12.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7e69b480400b37dd75614f0c8d033c37.png",
     "main_role": "Mage",
     "all_roles": [
@@ -8018,6 +8068,7 @@
     "hero_id": 51,
     "hero_name": "Helcurt",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/9228edc9654dd14f3f7a862e8aafd32d.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_7d54de9ffe40c05d51b4a27318ed5f6d.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ffd27cd02c46f7075caedcd51de80d9a.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -8164,6 +8215,7 @@
     "hero_id": 52,
     "hero_name": "Pharsa",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_abc3fab5356339f3f67da1ac73e37a61.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_353d39f8ae9ea1454e34ad8546db8417.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_cccf53dbeacc789288ebc1fb63fcf7dd.png",
     "main_role": "Mage",
     "all_roles": [
@@ -8321,6 +8373,7 @@
     "hero_id": 53,
     "hero_name": "Lesley",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/cdc8a6b743a8fe10cb8e1733aad94d72.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/1f0d645266d902f3f927ea7fc04c1bca.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_2bd608ac82a1af4783c5d0fff0c280dc.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -8448,6 +8501,7 @@
     "hero_id": 54,
     "hero_name": "Jawhead",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_dc3372a1768c8b9f142564de21f13daf.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_a48e93159c30c31e05dcd6cf7f53c07c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_4448132d3f9d89dc706883d148e50884.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -8599,6 +8653,7 @@
     "hero_id": 55,
     "hero_name": "Angela",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_ce5fdf101ad7cb80f20f234722664f87.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_187b8452435b469e8867e8fb2d387a5b.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a815a3adad8df99481700c84abaf3c41.png",
     "main_role": "Support",
     "all_roles": [
@@ -8761,6 +8816,7 @@
     "hero_id": 56,
     "hero_name": "Gusion",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/5cab7491b277fb1d80b710f5750ad7a1.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/a888de3fe448be8f29b50a62d0193aaf.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_82dbd20a7d0f274520895007898199e0.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -8925,6 +8981,7 @@
     "hero_id": 57,
     "hero_name": "Valir",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_3bd3fc834e5885c2a28956766e10151c.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_7a285a7d75ceb5fecceec6b2608b232f.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_cd4c780c0ed639e2889c1131e56638ec.png",
     "main_role": "Mage",
     "all_roles": [
@@ -9088,6 +9145,7 @@
     "hero_id": 58,
     "hero_name": "Martis",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_1277b67d1d03c5584a874d00b9a593b3.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_01b9995a75249c3155ca96e4713139a9.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_9691f86f84a553ea3982014738905f3f.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -9222,6 +9280,7 @@
     "hero_id": 59,
     "hero_name": "Uranus",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/1d5bc1bb1cf6c64f1496db6f68a67591.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_1e52a042e596bd333ccab46d00bb8c72.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_04a36899ac866eecb1d3a9c436cfb1d9.png",
     "main_role": "Tank",
     "all_roles": [
@@ -9389,6 +9448,7 @@
     "hero_id": 60,
     "hero_name": "Hanabi",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/bcf943a06ac3bc606f88d8575d9a7c61.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/0208ca2382d8cfdcd277ef5d532316f7.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_85d213390613bbc09220cf1d9f64c5c0.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -9525,6 +9585,7 @@
     "hero_id": 61,
     "hero_name": "Chang'e",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_61b8488a3bd420e27635feb15d51be70.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_bf3d5cdc1c0e33f5aab7732e153c7409.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4a2db83b0fb92b826f039955d1b8b5df.png",
     "main_role": "Mage",
     "all_roles": [
@@ -9670,6 +9731,7 @@
     "hero_id": 62,
     "hero_name": "Kaja",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_8ebc0cf38e2d71847258bbcc842648e5.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_1a0b70adda2acee8c950dd0982b45e5c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_87a88d7acc62a25869a5316147f3ce6a.png",
     "main_role": "Support",
     "all_roles": [
@@ -9825,6 +9887,7 @@
     "hero_id": 63,
     "hero_name": "Selena",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_81d132f8c7b61f62a176388fa8751b3e.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_4ce7dbe0cbcbaf4c2fcc47bd96780b35.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_547ce6e3351ef7a46c02b51d0c4e452c.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -10115,6 +10178,7 @@
     "hero_id": 64,
     "hero_name": "Aldous",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_a97e28d45655ed7d3ad0c45b05671d85.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_e4f7847a1b687a2e4f414e531cd66b1b.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c2f6866ffc797395ee35f97a74bbea20.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -10269,6 +10333,7 @@
     "hero_id": 65,
     "hero_name": "Claude",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_7ed528f154dd4f460c59361ab0ed7942.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_1edf19b0839ffd2bffb60b4ee4953239.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_808e898e89986b917e146a9b5dcbbb57.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -10410,6 +10475,7 @@
     "hero_id": 66,
     "hero_name": "Vale",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_15e6ed1cab9b75f45700ea822d5d1945.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_25040275a37d04d6ed8930a64f9e20bd.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_344849c04f420fda542682b73c3f31d1.png",
     "main_role": "Mage",
     "all_roles": [
@@ -10590,6 +10656,7 @@
     "hero_id": 67,
     "hero_name": "Leomord",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/dc25ce7fbbd35291871ed9c953f7f001.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_77c6d6b5b84b658c8f25e6f371658cbd.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6c205605c520867a534e4e74588a7208.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -10760,6 +10827,7 @@
     "hero_id": 68,
     "hero_name": "Lunox",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_159b92373e78e0bb090036e5d652cdd3.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_8cd47d47126be5496fecb45304368069.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_69d35cd0c549a9bdbcf9fbfddf3122a5.png",
     "main_role": "Mage",
     "all_roles": [
@@ -11009,6 +11077,7 @@
     "hero_id": 69,
     "hero_name": "Hanzo",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/dc8ef571d8894657aa343d2aa6f12855.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/4e77b4cc8c101bbd62f548ed10ea1ed4.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_746725e15c7577be6bb92b2665adf447.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -11226,6 +11295,7 @@
     "hero_id": 70,
     "hero_name": "Belerick",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_765f9c9b8fa35be202c07a3159c4e90b.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_64900b3344e166f05645ac5759207897.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_c9aa12fe3c58449075a5ac8b6d691a13.png",
     "main_role": "Tank",
     "all_roles": [
@@ -11391,6 +11461,7 @@
     "hero_id": 71,
     "hero_name": "Kimmy",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/f920245e53c4e54ee445c03f6c26ed2f.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/f2851daf34080fb5406f8d602b9fa489.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_642/100_3fa938873a71f33898f26b19db654b7d.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -11544,6 +11615,7 @@
     "hero_id": 72,
     "hero_name": "Thamuz",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/bf899fde0bc8dff7d267544926e109da.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/1699a938c6938947e534aa2874341d58.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_3e7e133556af2f5d82f49fa8624b6bd5.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -11697,6 +11769,7 @@
     "hero_id": 73,
     "hero_name": "Harith",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_a856206bf001925a432bfceaac62263c.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_c1dcef05408b7c644298bab812517de3.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0f81a3d82eb05c2c062fc6ea8b3d6578.png",
     "main_role": "Mage",
     "all_roles": [
@@ -11862,6 +11935,7 @@
     "hero_id": 74,
     "hero_name": "Minsitthar",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/ba291a006ee4426e416307d41b1b979c.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_5a18fa300eb0de4324601c116eab655c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_dbfdfa2d0a3cc95cbc197d0a14d5ecd1.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -12029,6 +12103,7 @@
     "hero_id": 75,
     "hero_name": "Kadita",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_64931dfa2914e36b6ba72c5a0d765d21.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_3671cbec60a1b4f62971d37e7ecc0e89.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_db76619a5d692aff3f78e3ff8d075a35.png",
     "main_role": "Mage",
     "all_roles": [
@@ -12181,6 +12256,7 @@
     "hero_id": 76,
     "hero_name": "Faramis",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_7c615f5f64784ed39f8862a41d9cd3fb.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_a171d8e12dd5eda201750e794dd5e313.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4bed236fc260d9924b030e576793a26b.png",
     "main_role": "Support",
     "all_roles": [
@@ -12358,6 +12434,7 @@
     "hero_id": 77,
     "hero_name": "Badang",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_68d0366513f26448d34a79dde3934935.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_ce3e2759eb9ccd7a94ae3a2ee4e8b8e7.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_484caceb9611d547774d6d936519a7d6.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -12509,6 +12586,7 @@
     "hero_id": 78,
     "hero_name": "Khufra",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_32c5294cfd0d1d51c8237d22e9c47a41.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_3ffc413118c62fc17f599cb35172ba9c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_5e137ba2f4b8c5a6cd113926f8e8387b.png",
     "main_role": "Tank",
     "all_roles": [
@@ -12677,6 +12755,7 @@
     "hero_id": 79,
     "hero_name": "Granger",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/44abaeb8e1ded1c46bcad8ff2100e740.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/5d272478f2f89dcae9e6896cb19743ac.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_22/100_9ed57f48f91012fd110935258cd1ab61.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -12780,6 +12859,7 @@
     "hero_id": 80,
     "hero_name": "Guinevere",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_fa3eb7ce3b07a4939cc2fc0720256928.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_5acbfb73c47c25d4689f93c3c950fc8f.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_a34258a6365097da09d9513b620bc14a.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -12922,6 +13002,7 @@
     "hero_id": 81,
     "hero_name": "Esmeralda",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_f5330341dfacb2b1d89db5e075f57bfb.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_980e6419f7763a9dd26818312d73cc6d.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_f684768281faab70dea48d06fb72979e.png",
     "main_role": "Tank",
     "all_roles": [
@@ -13083,6 +13164,7 @@
     "hero_id": 82,
     "hero_name": "Terizla",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_a36e13e0037e386658e8f37886e3b4d3.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_2352b6ef3a86441e2a3880fa436df1de.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fcfbde52476bad8c8e67951240de854c.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -13264,6 +13346,7 @@
     "hero_id": 83,
     "hero_name": "X.Borg",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/d717ccd7463699aab1c51c64a661555d.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/52e2334206e3b30354b129f86ada1ef5.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_cc433460d0b2053a3d3a18b46462bfb2.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -13400,6 +13483,7 @@
     "hero_id": 84,
     "hero_name": "Ling",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_af4312bae7aa443129b46a17b4dce3a6.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_f76a7dfe805afa316e5ec44295b75772.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_4405561c38db556d9cdc6a57b8642e66.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -13516,6 +13600,7 @@
     "hero_id": 85,
     "hero_name": "Dyrroth",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/716fa6fcc7d4b4a73827db62e0c8fcf1.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/636054ad39847fcc242d0b03feadffac.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_bf8dcb20923cee2407563e0fe88aa557.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -13651,6 +13736,7 @@
     "hero_id": 86,
     "hero_name": "Lylia",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_470be3e1d7dbbe71ef5c37b7b8bd9918.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_8d16667b16673a1919c513fa46bbf2d0.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_5814b1901de2d5713e04b47e36d305e0.png",
     "main_role": "Mage",
     "all_roles": [
@@ -13806,6 +13892,7 @@
     "hero_id": 87,
     "hero_name": "Baxia",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_d99ab7d1585ef44c37cdb9ee7adc49e7.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_478a4875002331e56e73835a2697ad5d.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_ae43a252fda0fe996322ea8d27a6fe69.png",
     "main_role": "Tank",
     "all_roles": [
@@ -13977,6 +14064,7 @@
     "hero_id": 88,
     "hero_name": "Masha",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_2da39f7e29e54c3ea763200792ff028d.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_59893811b0123dc6babca117f5ead017.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6fcd3a37b34ea16ca6b485b88220e400.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -14154,6 +14242,7 @@
     "hero_id": 89,
     "hero_name": "Wanwan",
     "icon": "https://liquipedia.net/commons/images/thumb/d/dd/ML_icon_Wanwan_2025.png/85px-ML_icon_Wanwan_2025.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/9b163e2146ae6b0e84941032c3f10a41.png",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_47/100_c042bfb106853182a8c38ae5386ceb77.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -14316,6 +14405,7 @@
     "hero_id": 90,
     "hero_name": "Silvanna",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_4c91a50abb279d6926028252dde8cc72.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_a9de8642b6e62f44652c519f153620d2.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_fe98dd2e19bb6c29591763d1d11a3eb7.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -14487,6 +14577,7 @@
     "hero_id": 91,
     "hero_name": "Cecilion",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_f26fbce0ad1d2cc1c7183d95b794dd82.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_71d6b7fc8cfe8fd9b0c20ad3be1af4e8.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_af02ce891528cd3576858589d8d33d8d.png",
     "main_role": "Mage",
     "all_roles": [
@@ -14650,6 +14741,7 @@
     "hero_id": 92,
     "hero_name": "Carmilla",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_304b50e6df0a906fc47fade01ef6703a.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_08d58580aaeaab354c2d267d8746c42d.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_358d6ad9cff97fc3bfef8a2bd4acbadd.png",
     "main_role": "Support",
     "all_roles": [
@@ -14805,6 +14897,7 @@
     "hero_id": 93,
     "hero_name": "Atlas",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_4008429d9b3916968024691deeeddd8c.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_9a217534db9b67c6db2c45d57a0d640c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_0dc01e8286bc92e5be3a3503dd47229c.png",
     "main_role": "Tank",
     "all_roles": [
@@ -14964,6 +15057,7 @@
     "hero_id": 94,
     "hero_name": "Popol and Kupa",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_c9bd7235fb2c3e2c803827012d95e24d.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_555eb8df475f57d6f01a1f2a2675671c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_30e98c9005e54b1625712892560ad9ab.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -15253,6 +15347,7 @@
     "hero_id": 95,
     "hero_name": "Yu Zhong",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_b68588be95bb5f37fdbe4ef5fc4ca110.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_97280cb443adc3bcb4ca9b36a0fada53.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_7d5ad4d511f5257137028f19e9ee973f.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -15419,6 +15514,7 @@
     "hero_id": 96,
     "hero_name": "Luo Yi",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_9dc55ccd4a972b721dfb8fadfb22fa34.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_52c14752b29b6f9039da26a50e860c5c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_74fe63bd31cc092aed923543a115b7bd.png",
     "main_role": "Mage",
     "all_roles": [
@@ -15572,6 +15668,7 @@
     "hero_id": 97,
     "hero_name": "Benedetta",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_542baf36c1ea32bb1bf64c65451537c8.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_2153076135c5ea537f796c4352dd9800.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_eceefa7ba07f093d71a30852f0051b7a.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -15736,6 +15833,7 @@
     "hero_id": 98,
     "hero_name": "Khaleed",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_0a51c125997cb625e2c90c182e92bded.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_155712d0d854711a12f2754865acc17b.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_216ea76d9188164c58950885b3962ba1.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -15899,6 +15997,7 @@
     "hero_id": 99,
     "hero_name": "Barats",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_eb6f11e65a54a02f5f4abd4075a909ef.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_1b9fec44c21db9ecba0229ac227c7d51.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_2ff4a47ddc77ec9e4e5a522fd696d2c4.png",
     "main_role": "Tank",
     "all_roles": [
@@ -16084,6 +16183,7 @@
     "hero_id": 100,
     "hero_name": "Brody",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_2f3ad5e7e045abe8cce3d7360253f62a.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_9a3feb044b76ac87f886a0fdf4ef4f13.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_dc8216bde520fd7be7a2e9e6fad90191.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -16248,6 +16348,7 @@
     "hero_id": 101,
     "hero_name": "Yve",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/144295225471df7bc06424d457893215.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/0b6e910cb702dcbb68614c9bac4ba590.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_d8cc30b9d273a81bd838afc691852b6f.png",
     "main_role": "Mage",
     "all_roles": [
@@ -16420,6 +16521,7 @@
     "hero_id": 102,
     "hero_name": "Mathilda",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_dc0bc2dc472c4dbe1d480c45092af6b2.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_5d6eb0491da5709648beca54f906c0a3.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_c3d601a8f6a69409359083ba599f0bb6.png",
     "main_role": "Support",
     "all_roles": [
@@ -16583,6 +16685,7 @@
     "hero_id": 103,
     "hero_name": "Paquito",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_84c1352819d72d8163027323f4e8e9e0.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_ef4c59d1923663a6aaa77d1c0a7ff258.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_1986ebcc24fc3eb28f59f079c15be612.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -16752,6 +16855,7 @@
     "hero_id": 104,
     "hero_name": "Gloo",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/fb9fbde149e6163b6d7889f407f4cfbb.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/7257d4ee30eff4d5bc5726027eee5f96.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_642/100_8b401d50920f2359060a9c7a3c833df1.png",
     "main_role": "Tank",
     "all_roles": [
@@ -16926,6 +17030,7 @@
     "hero_id": 105,
     "hero_name": "Beatrix",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_37e6e9ec99719ac41b2c40c4fa0f7728.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_2f25a8ef9bbb2d52eaaea8d6eee85d22.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c1acd7cbd828f0c5d291e48a0f7c018d.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -17198,6 +17303,7 @@
     "hero_id": 106,
     "hero_name": "Phoveus",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/24151f1e98ff418f095560a9aab0967f.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_b811616b91e45a75437a6d5b9f386bd3.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_06/100_6bfe8ca7e60623a5261eac20e2b39d34.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -17365,6 +17471,7 @@
     "hero_id": 107,
     "hero_name": "Natan",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_237efea2b4aafa9b92874509cdb9ac77.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_bc73ea56e3e05b4f9ed8046b959e1290.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6736ef8c230d82576c3710e9fc248e11.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -17525,6 +17632,7 @@
     "hero_id": 108,
     "hero_name": "Aulus",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_c200a863e7014f2ea721abbfac8f1a27.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_882d9e4fe4067e09acc97ab6be99f06b.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_55751a5c47dc36cb6c1da705c5f5c687.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -17692,6 +17800,7 @@
     "hero_id": 109,
     "hero_name": "Aamon",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_14279bd7c375cdde9d64ea5cf947750d.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_26b1c0ec95ad9e98f81b07d6838a8652.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c9e4d330229c88b1e78ef88ce9db4223.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -17849,6 +17958,7 @@
     "hero_id": 110,
     "hero_name": "Valentina",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_4e16b65a234f6c7918bb4530a686882b.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_cdd151e2293c14b2abc3c1c8e57d4392.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_7923ebf470d0e963e9978cb21eb25780.png",
     "main_role": "Mage",
     "all_roles": [
@@ -17980,6 +18090,7 @@
     "hero_id": 111,
     "hero_name": "Edith",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_601469050705b388ede03c435ee5af41.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_0598a42d46dd271410f403b57eb02e2a.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_352f65059bc1180ae0fc066003d628e0.png",
     "main_role": "Tank",
     "all_roles": [
@@ -18191,6 +18302,7 @@
     "hero_id": 112,
     "hero_name": "Floryn",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_2ea4c37787275d9058149da01ce44731.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_854338f3ad90cb9e14aec15c8b8a08c7.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_5168f0a54304b2f20f976a1ffa96e1dc.png",
     "main_role": "Support",
     "all_roles": [
@@ -18365,6 +18477,7 @@
     "hero_id": 113,
     "hero_name": "Yin",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_3bcf17fb31f887ab2e823b66dc2df75f.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_5324c7bcbfd9932aca9b8d2e7b8e307a.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_95836476311e2026077d87eb2373a281.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -18606,6 +18719,7 @@
     "hero_id": 114,
     "hero_name": "Melissa",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_f643d7af54fb40a9bbd036ed29af1898.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_5c2a434757066a779c8adec5af05a8d1.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_8044c8e2e966533e8978b20f4ecb5cd9.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -18778,6 +18892,7 @@
     "hero_id": 115,
     "hero_name": "Xavier",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_bee7c5e35d0a74231a84424fdbf15ed4.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_6ebaf2a24b6b6cf256c9bae408b0400e.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18_2/100_50a5b0dd98ed2378d9f618e5ef0d47b2.png",
     "main_role": "Mage",
     "all_roles": [
@@ -18932,6 +19047,7 @@
     "hero_id": 116,
     "hero_name": "Julian",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_b32a51f43231f7fd1ff5b5851eea5937.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_5b493fa77cd6ea1a799577a69c86fbd2.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_44891c699fb1c00fc4a7fa59ea95b8b3.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -19174,6 +19290,7 @@
     "hero_id": 117,
     "hero_name": "Fredrinn",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_9313e28c691fba3c2b2360cd9b93e8d8.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_bafe5308a1e6db91ba57e39c45874a92.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_3f574825bd9192094f047a4abc6d5d05.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -19344,6 +19461,7 @@
     "hero_id": 118,
     "hero_name": "Joy",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_afa07253caa5217b4131a715713bba9e.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_f647bf6dbb80b4b2b2310ab5af88773d.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_6b5570b0e557e36501b4228fcdfcf164.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -19469,6 +19587,7 @@
     "hero_id": 119,
     "hero_name": "Novaria",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_9cd9ab4ac00f6ab1847c7411a4799c50.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_b2599c8a6c681afdee9a06a92190a58d.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_12c811236741ae8e3fbdaa2d884b30a2.png",
     "main_role": "Mage",
     "all_roles": [
@@ -19625,6 +19744,7 @@
     "hero_id": 120,
     "hero_name": "Arlott",
     "icon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/community/100_6d9ab303b128e1b47191b7b697964f59.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_d29e8f9f2d129f18a944da0a8e9044c2.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_01450fec4397f8780ce0d11ab652c73d.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -19780,6 +19900,7 @@
     "hero_id": 121,
     "hero_name": "Ixia",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/9ef19d373ea9fc1b8caa4398b5ca9927.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_48896a3cf0ee41c3d54c2b651ed926ea.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_c5f758bd1141327d36f2c77928268ab7.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -19932,6 +20053,7 @@
     "hero_id": 122,
     "hero_name": "Nolan",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/cbbf269f46885175b8d3b5676daf24a6.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_cae4b6dafe9d345f84eee1c983333c0c.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_0495066df0d828c149e7fe89aa63078b.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -20062,6 +20184,7 @@
     "hero_id": 123,
     "hero_name": "Cici",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/c9d494c6996a58eb498eb50508310c04.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_eb1705dc650b3980d57c638d02bfb470.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_4f970eb4b44b8c9fff2c511d8e856ff4.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -20201,6 +20324,7 @@
     "hero_id": 124,
     "hero_name": "Chip",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/da414e182f118de13f1dedd94f483838.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage/100_fb8b4e345db174545e967b7bcbd219f4.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage/100_85e15c66733cab7d8d73f7f725f31f1e.png",
     "main_role": "Support",
     "all_roles": [
@@ -20381,6 +20505,7 @@
     "hero_id": 125,
     "hero_name": "Zhuxin",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/dc19d6cdeb31fe8889d51a0c184a069a.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/svnres/file/mlbb/homepage_92/100_999ac33ac284f6dc38a5f5ae7a6921b8.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_92/100_13cfeec4bec7a27a09677e519f1ef9d2.png",
     "main_role": "Mage",
     "all_roles": [
@@ -20556,6 +20681,7 @@
     "hero_id": 126,
     "hero_name": "Suyou",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/1cce8eefc4b4c738e8aafafff6bafc84.png",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/13912f0dbc96b6cf53a00e80ff731dab.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_422ffc7849e8bb01629d2423054ed410.png",
     "main_role": "Assassin",
     "all_roles": [
@@ -20718,6 +20844,7 @@
     "hero_id": 127,
     "hero_name": "Lukas",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/12a9a4f54f6f0e874a7ee51a84eda237.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/95b6f94a0e37fd02e069223493540e75.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_20/100_454c13b2de7b7d1a20fbf553c620510d.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -20924,7 +21051,7 @@
           "Buff"
         ]
       },
-           {
+      {
         "type": "Ultimate - Human Form",
         "skillname": "Unleash the Beast",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_42/100_0ee62afc61544c6664234deab5577fc7.png",
@@ -20983,6 +21110,7 @@
     "hero_id": 128,
     "hero_name": "Kalea",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/f81399d64f2916499d853ca32c85902d.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/6bde4242228d5ea98b700c9cfc1e837d.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_64/100_9c5f2904026ba88b7aba8c9b2722f4ad.png",
     "main_role": "Support",
     "all_roles": [
@@ -21107,6 +21235,7 @@
     "hero_id": 129,
     "hero_name": "Zetian",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/20a263b2adb23ad40cd955b9abf4bbb0.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/b617a6b4d9e2c22a5bc24d886e453399.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_1_9_90/100_22dc8b16ea98a735027c3141b74ef841.png",
     "main_role": "Mage",
     "all_roles": [
@@ -21290,6 +21419,7 @@
     "hero_id": 130,
     "hero_name": "Obsidia",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/ec1e6b75f6b975c30e30e40c2665d195.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/1dca7f088da27d5a12faf83f7c1f8269.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_18/100_92bcc9ad2c4c8165a888d34f086a4d28.png",
     "main_role": "Marksman",
     "all_roles": [
@@ -21435,6 +21565,7 @@
     "hero_id": 131,
     "hero_name": "Sora",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/72a206fce9a1ec0063cb4d52053f47b9.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/d6348e65d8d0d4ca8b0738d691cef440.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_4749a1f7fe99cbedfc5ef23fc1287d6c.png",
     "main_role": "Fighter",
     "all_roles": [
@@ -21662,7 +21793,7 @@
           "CC"
         ]
       },
-            {
+      {
         "type": "Ultimate - Normal",
         "skillname": "Shifting Skies",
         "skillicon": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_40/100_cea96e22851430931feb523f9bfac657.png",
@@ -21744,6 +21875,7 @@
     "hero_id": 132,
     "hero_name": "Marcel",
     "icon": "https://akmweb.youngjoygame.com/web/gms/image/e7aa2ab69d15fc168b2d60b0e5ed0a1e.jpg",
+    "splash_art": "https://akmweb.youngjoygame.com/web/gms/image/3542718f699058d42801d88ec9b8fb8b.jpg",
     "portrait": "https://akmweb.youngjoygame.com/web/svnres/img/mlbb/homepage_2_1_42/100_82e5c2646276cd907f69cc800057c737.png",
     "main_role": "Support",
     "all_roles": [

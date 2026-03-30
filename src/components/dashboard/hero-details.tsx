@@ -2,7 +2,7 @@
 
 import React, { useEffect, memo } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { MLBBHero } from "@/types/hero";
+import { MLBBHero, HeroSkillTag } from "@/types/hero";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SvgIconProps } from "@mui/material";
@@ -140,7 +140,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
               onClick={onClose}
               className="text-zinc-500 hover:text-white hover:bg-transparent transition-all p-0 group"
             >
-              <ArrowLeft className="mr-2 h-5 w-5 transition-transform group-hover:-translate-x-1" />
+              <ArrowLeft className="mr-2 h-5 w-5" />
               <span className="text-[10px] font-black tracking-widest uppercase italic">
                 Close File
               </span>
@@ -293,15 +293,12 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
               </div>
 
               {/* TABS SECTION: Abilities | Best Counters | Best Teammates */}
-              <section className="mt-32 space-y-8">
+              <section className="mt-12 space-y-4 flex flex-col items-start">
                 <Tabs defaultValue="abilities" className="w-full">
-                  {/* Tabs Header Container */}
-                  <div className="border-b border-zinc-800/50">
-                    {/* TabsList: Removed all default backgrounds and rounding */}
-                    <TabsList className="bg-transparent h-auto p-0 flex justify-start gap-10 overflow-hidden rounded-none border-none">
+                  <div className="border-b border-zinc-800/50 w-full">
+                    <TabsList className="bg-transparent h-auto p-0 flex justify-start items-center gap-8 md:gap-10 rounded-none border-none w-full pr-12 text-left">
                       {["abilities", "counters", "teammates"].map(
                         (tabValue) => {
-                          // Logic to handle conditional rendering for matchup tabs
                           if (tabValue !== "abilities" && !hero.matchups)
                             return null;
 
@@ -316,7 +313,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                             <TabsTrigger
                               key={tabValue}
                               value={tabValue}
-                              className="bg-transparent rounded-none border-none shadow-none border-b-2 border-transparent relative h-14 px-0 pb-4 pt-2 text-xl font-black uppercase italic tracking-tighter text-zinc-500 transition-all duration-200 data-[state=active]:bg-transparent data-[state=active]:text-white data-[state=active]:border-b-white data-[state=active]:shadow-none hover:text-zinc-300"
+                              className="bg-transparent rounded-none border-none shadow-none border-b-2 border-transparent relative h-12 px-2 pb-3 pt-2 text-xl font-black uppercase italic tracking-tighter text-zinc-500 transition-all duration-200 data-[state=active]:bg-transparent data-[state=active]:text-white data-[state=active]:border-b-white data-[state=active]:shadow-none hover:text-zinc-300 justify-start"
                             >
                               {label}
                             </TabsTrigger>
@@ -326,19 +323,21 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                     </TabsList>
                   </div>
 
-                  {/* Tab Contents */}
-                  <div className="pt-12">
+                  {/* Tab Contents Area */}
+                  {/* Reduced pt-12 to pt-6 to bring the content closer to the buttons */}
+                  <div className="pt-6">
                     <TabsContent
                       value="abilities"
-                      className="space-y-10 mt-0 outline-none animate-in fade-in slide-in-from-bottom-2 duration-500"
+                      className="space-y-8 mt-0 outline-none animate-in fade-in slide-in-from-bottom-2 duration-500"
                     >
-                      <div className="grid grid-cols-1 gap-10">
+                      <div className="grid grid-cols-1 gap-8">
                         {hero.skills.map((skill, index) => (
                           <div
                             key={index}
-                            className="flex flex-col md:flex-row gap-8 lg:gap-12 p-8 lg:p-10 rounded-[2.5rem] bg-zinc-900/10 border border-zinc-800/40 backdrop-blur-md transition-all"
+                            className="flex flex-col md:flex-row gap-8 lg:gap-10 p-6 lg:p-8 rounded-[2.5rem] bg-zinc-900/10 border border-zinc-800/40 backdrop-blur-md transition-all"
                           >
-                            <div className="flex flex-col items-center gap-5 shrink-0 w-28 lg:w-32">
+                            {/* Skill Icon Side */}
+                            <div className="flex flex-col items-center gap-4 shrink-0 w-28 lg:w-32">
                               <div className="relative w-24 h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden border-2 border-zinc-800 bg-zinc-900 shadow-xl">
                                 <img
                                   src={skill.skillicon}
@@ -355,48 +354,48 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                                 {skill.type}
                               </Badge>
                             </div>
-                            <div className="flex-1 space-y-6 text-left">
-                              <div className="flex flex-col gap-4 border-b border-zinc-800/50 pb-5">
-                                <div className="space-y-3">
-                                  <h3 className="text-2xl lg:text-3xl font-bold text-white tracking-tight">
-                                    {skill.skillname}
-                                  </h3>
-                                  {skill.skilltag &&
-                                    skill.skilltag.length > 0 && (
-                                      <div className="flex flex-wrap gap-2.5">
-                                        {skill.skilltag.map((tagName, i) => {
-                                          const color = getTagColor(tagName);
-                                          return (
-                                            <div
-                                              key={i}
-                                              className="px-3 py-1 rounded-md text-[10px] font-black uppercase tracking-[0.15em] border-2"
-                                              style={{
-                                                backgroundColor: `${color}33`,
-                                                borderColor: `${color}99`,
-                                                color: color,
-                                                boxShadow: `0 0 12px ${color}30`,
-                                              }}
-                                            >
-                                              {tagName}
-                                            </div>
-                                          );
-                                        })}
-                                      </div>
-                                    )}
-                                </div>
+
+                            {/* Skill Content Side */}
+                            <div className="flex-1 space-y-4 text-left">
+                              <div className="flex flex-col gap-3 border-b border-zinc-800/50 pb-4">
+                                <h3 className="text-2xl lg:text-3xl font-bold text-white tracking-tight">
+                                  {skill.skillname}
+                                </h3>
+                                {skill.skilltag &&
+                                  skill.skilltag.length > 0 && (
+                                    <div className="flex flex-wrap gap-2.5">
+                                      {skill.skilltag.map((tagName, i) => {
+                                        const color = getTagColor(tagName);
+                                        return (
+                                          <div
+                                            key={i}
+                                            className="px-3 py-1 rounded-md text-[10px] font-black uppercase tracking-[0.15em] border-2"
+                                            style={{
+                                              backgroundColor: `${color}33`,
+                                              borderColor: `${color}99`,
+                                              color: color,
+                                              boxShadow: `0 0 12px ${color}30`,
+                                            }}
+                                          >
+                                            {tagName}
+                                          </div>
+                                        );
+                                      })}
+                                    </div>
+                                  )}
                               </div>
 
-                              <div className="text-base lg:text-lg leading-[1.65] text-zinc-300 max-w-4xl font-normal">
+                              <div className="text-base lg:text-lg leading-[1.6] text-zinc-300 max-w-4xl font-normal">
                                 {renderSkillDesc(skill.skilldesc)}
                               </div>
 
                               {Object.keys(skill.attributes).length > 0 && (
-                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-6 pt-4">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-10 gap-y-4 pt-2">
                                   {Object.entries(skill.attributes).map(
                                     ([key, values]) => (
                                       <div
                                         key={key}
-                                        className="space-y-1.5 border-l-2 border-zinc-800 pl-4"
+                                        className="space-y-1 border-l-2 border-zinc-800 pl-4"
                                       >
                                         <p className="text-[10px] font-black uppercase text-zinc-400 tracking-widest">
                                           {key.replace(/_/g, " ")}
@@ -415,6 +414,7 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                       </div>
                     </TabsContent>
 
+                    {/* Matchups Contents */}
                     {hero.matchups && (
                       <>
                         <TabsContent
@@ -427,7 +427,6 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                             type="counter"
                           />
                         </TabsContent>
-
                         <TabsContent
                           value="teammates"
                           className="mt-0 outline-none animate-in fade-in slide-in-from-bottom-2 duration-500"
@@ -444,11 +443,11 @@ export function HeroDetails({ hero, isOpen, onClose }: HeroDetailsProps) {
                 </Tabs>
               </section>
 
-              <footer className="mt-1 pb-16 text-center border-t border-zinc-900/50 pt-10">
+              <footer className="mt-20 pb-16 text-center border-t border-zinc-900/50 pt-10">
                 <div className="max-w-2xl mx-auto space-y-3">
                   <p className="text-sm font-medium text-zinc-400 tracking-wide leading-relaxed">
                     Hero data and skill assets provided by
-                    <br /> {/* Forces the links to the next line */}
+                    <br />
                     <a
                       href="https://www.mobilelegends.com/"
                       target="_blank"
